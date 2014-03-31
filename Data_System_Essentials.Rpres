@@ -26,7 +26,8 @@ Why Take This Course?
 
 * Researchers work with increasing amounts of data.
 * Many students do not have training in data management.
-* Science degree programs generally do not address this gap and it is difficult for non-majors to get into data courses for IT students.
+* Science degree programs generally do not address this gap.
+* It is difficult for non-majors to get into IT courses.
 * This leaves students and research teams struggling to cope.
 * And therefore places a heavy burden on IT support.
 * Our data management course provides the needed skills to address these issues.
