@@ -6,6 +6,7 @@ date: 2014-04-03
 ----
 
 ![data wave comic](images/data_wave.jpg)
+[//]: # (From: http://www.nuxeo.com/blog/industry-insight/2011/10/enterprise-content-trends-2/)
 
 
 Course Introduction
@@ -19,7 +20,7 @@ Welcome to a course in data management for scientific research projects.
 * Presentations, demos, hands-on exercises, discussions and "homework"
 * Materials: A textbook, eBooks, websites, and online videos
 
-![practical computing for biologists](http://practicalcomputing.org/images/pcfb_banner_over.png)
+![practical computing for biologists](http://practicalcomputing.org/images/s_CoverShadow.png)
 
 Why Take This Course?
 ========================================================
@@ -46,13 +47,18 @@ Participant Introductions
 * What you hope to get out of this course
 
 ![be friendly](images/friendly.jpg)
+[//]: # (From: http://iconsforlife.com/post/28922487778)
 
 
 Session 1: Data System Essentials
 ========================================================
 
-![data internals](images/data_system.jpg)
 
+
+![stanza body](images/stanza_body.jpg)
+[//]: # (From: http://www.stanza.co.uk/body/index.html)
+<small>Photo: &copy; [Stanza](stanza.co.uk)</small>
+    
 
 Today's Learning Objectives
 ========================================================
@@ -114,6 +120,7 @@ An excellent short video presentation explaining the differences between databas
 Watching this video is a "homework" assignment!
 
 ![db vs ss](http://cdn.differencebetween.net/wp-content/uploads/2009/10/db-spreadsheet.jpg)
+[//]: # (From: http://www.differencebetween.net/technology/difference-between-spreadsheet-and-database/)
 
 So for now, we will just summarize these differences ...
 
@@ -128,7 +135,8 @@ Spreadsheets
 
 ---
 
-![flat file](http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Mimetypes-x-office-spreadsheet-icon.png)
+![flat file](images/spreadsheet.jpg)
+[//]: # (From: http://www.softicons.com/web-icons/large-calendar-icons-by-aha-soft/spreadsheet-icon)
 
 Databases
 ========================================================
@@ -142,6 +150,7 @@ Databases
 ---
 
 ![relational database](https://cdn.tutsplus.com/net/authors/lalith-polepeddi/relational-databases-for-dummies-fig4.png)
+[//]: # (From: http://code.tutsplus.com/tutorials/relational-databases-for-dummies--net-30244)
 
 Designing a Data System
 ========================================================
@@ -157,6 +166,7 @@ So let's get started!
 ---
 
 ![data modeling](images/data_modeling.png)
+[//]: # (From: http://en.wikipedia.org/wiki/Data_modeling)
 
 Get the Picture: Use Case Diagrams
 ========================================================
@@ -170,6 +180,7 @@ They model what people want to do with a system. A use case describes a "goal", 
 ---
 
 ![Use Case Diagram](http://upload.wikimedia.org/wikipedia/commons/1/1d/Use_case_restaurant_model.svg)
+[//]: # (From: http://en.wikipedia.org/wiki/Use_Case_Diagram)
 
 Example System Interactions
 ========================================================
@@ -232,11 +243,14 @@ As a group, list of the ways that you and others will accomplish research goals 
 
 List goals as actions in "verb noun" form. Then figure out who interacts to perform those actions.
 
-![use case diagram symbols](http://wc1.smartdraw.com/resources/tutorials/images/uml_systemuse.gif)
+![group](images/teamwork.jpg)
+[//]: # (From: http://commons.wikimedia.org/wiki/File:Group_visioning_session_-_group_one_-_Stierch.jpg)
 
 ---
 
-Draw a simple use case diagram with stick figures (actors) and elipses (goals, or use cases). All of the elipses should be enclosed in a "system boundary" box, with the stick figures outside of the box. 
+Draw a simple use case diagram with stick figures (actors) and elipses (goals, or use cases). 
+
+All of the elipses should be enclosed in a "system boundary" box, with the stick figures outside of the box. 
 
 Lines (interactions) should connect the actors to their goals (use cases). Label the lines with what the actor does (action) to achieve the goal. 
 
@@ -246,16 +260,23 @@ Discussion
 
 We will display your diagrams on the screen and discuss them.
 
-![group](https://www.liferay.com/image/image_gallery?uuid=9679b683-7160-4e56-a03e-c987cbb97206&groupId=14&t=1304188931565)
+![group](images/discussion.jpg)
+[//]: # (From: http://commons.wikimedia.org/wiki/File:User_journey_discussion.png)
 
 
-Action Items (tasks, readings, and videos)
+Action Items
 ========================================================
 
-![tasks](images/tasks.jpg)
-![readings](images/reading.jpg)
-![watching](images/watching.jpg)
+### ![tasks](images/tasks.jpg) Tasks 
+[//]: # (From: http://www.flaticon.com/free-icon/checklist-square-interface-symbol-of-rounded-corners_39862)
+[//]: # (Icon made by Freepik from Flaticon.com)
 
+### ![readings](images/reading.jpg) Readings 
+[//]: # (From: http://iconsforlife.com/post/27700442282)
+
+### ![videos](images/watching.jpg) Videos 
+[//]: # (From: http://www.iconsdb.com/black-icons/video-play-3-icon.html)
+[//]: # (This icon is provided as CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.)
 
 Tasks
 ========================================================
