@@ -55,9 +55,14 @@ Session 1: Data System Essentials
 
 
 
-![stanza body](images/stanza_body.jpg)
+
+![nasa data analysis](images/data_analysis.jpg)
+[//]: # (From: http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-000353.html)
+<small>Photo: NASA</small>
+
+[//]: # (![stanza body](images/stanza_body.jpg))
 [//]: # (From: http://www.stanza.co.uk/body/index.html)
-<small>Photo: &copy; [Stanza](stanza.co.uk)</small>
+[//]: # (<small>Photo: &copy; [Stanza](stanza.co.uk)</small>)
     
 
 Today's Learning Objectives
