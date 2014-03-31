@@ -806,13 +806,28 @@ hljs.initHighlightingOnLoad();
 <h2>Course Structure</h2>
 
 <ul>
-<li>Meet once a week for ten weeks</li>
 <li>Casual &ldquo;guided&rdquo; study-group approach</li>
 <li>Presentations, demos, hands-on exercises, discussions and &ldquo;homework&rdquo;</li>
 <li>Materials: A textbook, eBooks, websites, and online videos</li>
 </ul>
 
 <p><img src="http://practicalcomputing.org/images/pcfb_banner_over.png" alt="practical computing for biologists"/></p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Why Take This Course?</h3>
+<div class="slideContent" >
+<ul>
+<li>Researchers work with increasing amounts of data.</li>
+<li>Many students do not have training in data management.</li>
+<li>Science degree programs generally do not address this gap and it is difficult for non-majors to get into data courses for IT students.</li>
+<li>This leaves students and research teams struggling to cope.</li>
+<li>And therefore places a heavy burden on IT support.</li>
+<li>Our data management course provides the needed skills to address these issues.</li>
+<li>Exciting new discoveries await those who can effectively sift through mounds of data!</li>
+</ul>
 
 </div>
 
@@ -867,14 +882,20 @@ hljs.initHighlightingOnLoad();
 </section>
 <section data-transition="linear" data-transition-speed="default">
 <h3>Types of Data Systems</h3>
-<div class="slideContent" >
-<p>Unlinked:</p>
+<div class="column column1 slideContent" >
+<h3>Unlinked</h3>
 
 <ul>
 <li><a href="http://en.wikipedia.org/wiki/Flat_file_database">Flat file</a></li>
 </ul>
 
-<p>Linked:</p>
+
+</div>
+
+<div class="column column2 slideContent" >
+
+
+<h3>Linked</h3>
 
 <ul>
 <li><a href="http://en.wikipedia.org/wiki/Network_model">Network</a></li>
@@ -884,8 +905,6 @@ hljs.initHighlightingOnLoad();
 <li><a href="http://en.wikipedia.org/wiki/Object-relational_database">Object relational</a></li>
 <li><a href="http://en.wikipedia.org/wiki/NoSQL">NoSQL</a></li>
 </ul>
-
-<p>Want to know more? See: <a href="http://unixspace.com/context/databases.html">Database Models</a>.</p>
 
 </div>
 
@@ -923,14 +942,14 @@ hljs.initHighlightingOnLoad();
 <p>An excellent short video presentation explaining the differences between databases and spreadsheets can be found on YouTube: </p>
 
 <ul>
-<li>Video: <a href="https://www.youtube.com/watch?v=Ls_LzOZ7x0c">What are databases?</a></li>
+<li>Video: <a href="https://www.youtube.com/watch?v=Ls_LzOZ7x0c">What are databases?</a> - lynda.com</li>
 </ul>
 
-<p>Watching this video is a &ldquo;homework&rdquo; assignment.</p>
+<p>Watching this video is a &ldquo;homework&rdquo; assignment!</p>
 
 <p><img src="http://cdn.differencebetween.net/wp-content/uploads/2009/10/db-spreadsheet.jpg" alt="db vs ss"/></p>
 
-<p>For now, we will just summarize these differences &hellip;</p>
+<p>So for now, we will just summarize these differences &hellip;</p>
 
 </div>
 
@@ -1074,24 +1093,26 @@ hljs.initHighlightingOnLoad();
 <li>Researcher downloads results.</li>
 </ol>
 
-<p>This is the basic operation of the Open Data Kit system which we will learn about next week.</p>
+<p>This is the basic operation of the <a href="http://opendatakit.org/">Open Data Kit</a> system which we will learn about next week.</p>
 
 </div>
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
-<h3>But what good are they?</h3>
+<h3>But what good are they, really?</h3>
 <div class="slideContent" >
 <p>Modeling diagrams help you:</p>
 
 <ul>
-<li>Clarify your own understating</li>
+<li>Clarify your own understanding</li>
+<li>Explore possibilities</li>
 <li>Communicate with others</li>
+<li>Prepare for more detailed design steps</li>
 </ul>
 
 <p>As a researcher, you can use these and other diagrams and planning documents to clarify your project scope and requirements. They will help you present your intentions and needs to others, such as your collaborators and support staff.</p>
 
-<p>Use case diagrams can be used to develop an information system. Specifically, they are used to identify what a system must do and how people will interact with it. For example they can be used to design user interfaces and tests for software, such as database applications.</p>
+<p>Use case diagrams identify what a system must do and how people will interact with it. Developers use them to design user interfaces and tests for software, such as database applications.</p>
 
 </div>
 
@@ -1163,7 +1184,7 @@ hljs.initHighlightingOnLoad();
 <div class="slideContent" >
 <p>Find out the actual limits on MS Excel (max. file size, number of rows, etc.) that would make it unusable as a database if those limits were exceeded. (These may vary depending on the software version.) How about for OpenOffice (LibreOffice) &ldquo;Calc&rdquo;?</p>
 
-<p>For the Excel experts (bonus points): How do you link spreadsheets by matching columns, control the allowed values which can be entered in a column, protect cells (say, those containing formulas or constants) from being changed, restrict who can modify or view certain spreadsheets, and access the linked spreadsheets from other applications (like websites or statistics programs) over a network?</p>
+<p>For the Excel experts (bonus points): How do you link spreadsheets by matching columns headings, control the allowed values which can be entered in a column, protect cells (say, those containing formulas or constants) from being changed, restrict who can modify or view certain spreadsheets, and access the linked spreadsheets from other applications (like websites or statistics programs) over a network? If you know how to do these things, please demonstrate in class for us.</p>
 
 </div>
 
@@ -1187,7 +1208,7 @@ hljs.initHighlightingOnLoad();
 
 <p>Include all of the data-related tasks associated with your research project from beginning to end. The &ldquo;audience&rdquo; for this diagram should be IT staff who will help you develop the data system. Therefore, go into a level of detail which would communicate your data system needs clearly to a IT professional (analyst, designer, developer, or administrator).</p>
 
-<p>You can use pen and paper to make the diagram or you can use software tools such as Creately, Gliffy, Dia, Visio, or other application with symbols for use case modeling. You will present this diagram (for one or two minutes) in the next class session.</p>
+<p>You can use pen and paper to make the diagram or you can use software tools such as Creately, Gliffy, Dia, Visio, or other applications with symbols for use case modeling. You will present this diagram (for one or two minutes) in the next class session.</p>
 
 </div>
 

@@ -15,12 +15,23 @@ Welcome to a course in data management for scientific research projects.
 
 ## Course Structure
 
-* Meet once a week for ten weeks
 * Casual "guided" study-group approach
 * Presentations, demos, hands-on exercises, discussions and "homework"
 * Materials: A textbook, eBooks, websites, and online videos
 
 ![practical computing for biologists](http://practicalcomputing.org/images/pcfb_banner_over.png)
+
+Why Take This Course?
+========================================================
+
+* Researchers work with increasing amounts of data.
+* Many students do not have training in data management.
+* Science degree programs generally do not address this gap and it is difficult for non-majors to get into data courses for IT students.
+* This leaves students and research teams struggling to cope.
+* And therefore places a heavy burden on IT support.
+* Our data management course provides the needed skills to address these issues.
+* Exciting new discoveries await those who can effectively sift through mounds of data!
+
 
 Participant Introductions
 ========================================================
@@ -58,11 +69,14 @@ In this session, you will ...
 Types of Data Systems
 ========================================================
 
-Unlinked:
+### Unlinked
 
 * [Flat file](http://en.wikipedia.org/wiki/Flat_file_database)
 
-Linked:
+---
+
+### Linked
+
 
 * [Network](http://en.wikipedia.org/wiki/Network_model)
 * [Distributed](http://en.wikipedia.org/wiki/Distributed_database)
@@ -70,8 +84,6 @@ Linked:
 * [Relational](http://en.wikipedia.org/wiki/Relational_database)
 * [Object relational](http://en.wikipedia.org/wiki/Object-relational_database)
 * [NoSQL](http://en.wikipedia.org/wiki/NoSQL)
-
-Want to know more? See: [Database Models](http://unixspace.com/context/databases.html).
 
 ========================================================
 
@@ -97,13 +109,13 @@ Databases versus Spreadsheets
 
 An excellent short video presentation explaining the differences between databases and spreadsheets can be found on YouTube: 
 
-* Video: [What are databases?](https://www.youtube.com/watch?v=Ls_LzOZ7x0c)
+* Video: [What are databases?](https://www.youtube.com/watch?v=Ls_LzOZ7x0c) - lynda.com
 
-Watching this video is a "homework" assignment.
+Watching this video is a "homework" assignment!
 
 ![db vs ss](http://cdn.differencebetween.net/wp-content/uploads/2009/10/db-spreadsheet.jpg)
 
-For now, we will just summarize these differences ...
+So for now, we will just summarize these differences ...
 
 Spreadsheets
 ========================================================
@@ -196,20 +208,22 @@ Here, the scope only encompasses the goals of conducting the survey and returnin
 3. Subject uploads results.
 4. Researcher downloads results.
 
-This is the basic operation of the Open Data Kit system which we will learn about next week.
+This is the basic operation of the [Open Data Kit](http://opendatakit.org/) system which we will learn about next week.
 
 
-But what good are they?
+But what good are they, really?
 ========================================================
 
  Modeling diagrams help you:
 
-* Clarify your own understating
+* Clarify your own understanding
+* Explore possibilities
 * Communicate with others
+* Prepare for more detailed design steps
 
 As a researcher, you can use these and other diagrams and planning documents to clarify your project scope and requirements. They will help you present your intentions and needs to others, such as your collaborators and support staff.
 
-Use case diagrams can be used to develop an information system. Specifically, they are used to identify what a system must do and how people will interact with it. For example they can be used to design user interfaces and tests for software, such as database applications.
+Use case diagrams identify what a system must do and how people will interact with it. Developers use them to design user interfaces and tests for software, such as database applications.
 
 Hands-on Group Exercise
 ========================================================
@@ -262,7 +276,7 @@ Task 2: Limits to Excel as a "database"
 
 Find out the actual limits on MS Excel (max. file size, number of rows, etc.) that would make it unusable as a database if those limits were exceeded. (These may vary depending on the software version.) How about for OpenOffice (LibreOffice) "Calc"?
 
-For the Excel experts (bonus points): How do you link spreadsheets by matching columns, control the allowed values which can be entered in a column, protect cells (say, those containing formulas or constants) from being changed, restrict who can modify or view certain spreadsheets, and access the linked spreadsheets from other applications (like websites or statistics programs) over a network?
+For the Excel experts (bonus points): How do you link spreadsheets by matching columns headings, control the allowed values which can be entered in a column, protect cells (say, those containing formulas or constants) from being changed, restrict who can modify or view certain spreadsheets, and access the linked spreadsheets from other applications (like websites or statistics programs) over a network? If you know how to do these things, please demonstrate in class for us.
 
 Task 3: Document data sources in a wiki
 ========================================================
@@ -280,7 +294,7 @@ Produce a Use Case Diagram for your research study data system. Make it more det
 
 Include all of the data-related tasks associated with your research project from beginning to end. The "audience" for this diagram should be IT staff who will help you develop the data system. Therefore, go into a level of detail which would communicate your data system needs clearly to a IT professional (analyst, designer, developer, or administrator).
 
-You can use pen and paper to make the diagram or you can use software tools such as Creately, Gliffy, Dia, Visio, or other application with symbols for use case modeling. You will present this diagram (for one or two minutes) in the next class session.
+You can use pen and paper to make the diagram or you can use software tools such as Creately, Gliffy, Dia, Visio, or other applications with symbols for use case modeling. You will present this diagram (for one or two minutes) in the next class session.
 
 Task 5: Get files for textbook exercises
 ========================================================
