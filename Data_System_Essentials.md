@@ -44,14 +44,13 @@ Participant Introductions
 * The types of data or data systems you will be using
 * What you hope to get out of this course
 
----
-![be friendly](http://pad3.whstatic.com/images/thumb/8/8a/Be-Friendly-Step-9.jpg/670px-Be-Friendly-Step-9.jpg)
+![be friendly](images/friendly.jpg)
 
 
 Session 1: Data System Essentials
 ========================================================
 
-![data internals](http://img4.wikia.nocookie.net/__cb20070211082412/startrek/images/7/77/Data_internal_components.jpg)
+![data internals](images/data_system.jpg)
 
 
 Today's Learning Objectives
@@ -146,7 +145,7 @@ Databases
 Designing a Data System
 ========================================================
 
-To design a data system, we need to map out the various system components. In this course we will learn how to create:
+To design a data system, we need to identify requirements and map out the various system components. In this course we will learn how to create:
 
 * Use Case Diagrams
 * Data Flow Diagrams
@@ -156,7 +155,7 @@ So let's get started!
 
 ---
 
-![designer](http://www.zanderchance.com/wp-content/uploads/2012/08/website-designer.gif)
+![data modeling](images/data_modeling.png)
 
 Get the Picture: Use Case Diagrams
 ========================================================
@@ -221,7 +220,7 @@ But what good are they, really?
 * Communicate with others
 * Prepare for more detailed design steps
 
-As a researcher, you can use these and other diagrams and planning documents to clarify your project scope and requirements. They will help you present your intentions and needs to others, such as your collaborators and support staff.
+As a researcher, you can use these to clarify your project scope and requirements. They will help you present your project needs to others, such as your collaborators and support staff.
 
 Use case diagrams identify what a system must do and how people will interact with it. Developers use them to design user interfaces and tests for software, such as database applications.
 
@@ -294,7 +293,7 @@ Produce a Use Case Diagram for your research study data system. Make it more det
 
 Include all of the data-related tasks associated with your research project from beginning to end. The "audience" for this diagram should be IT staff who will help you develop the data system. Therefore, go into a level of detail which would communicate your data system needs clearly to a IT professional (analyst, designer, developer, or administrator).
 
-You can use pen and paper to make the diagram or you can use software tools such as Creately, Gliffy, Dia, Visio, or other applications with symbols for use case modeling. You will present this diagram (for one or two minutes) in the next class session.
+You can use pen and paper to make the diagram or you can use software tools such as Creately, Gliffy, Dia, Visio. You will present this diagram (for one or two minutes) in the next class session.
 
 Task 5: Get files for textbook exercises
 ========================================================
@@ -306,7 +305,9 @@ Readings
 * Read:  In the PCfB textbook: "Before You Begin", pp. 1-6; Chapters 1-3, pp. 9-43; and Appendix 1, pp. 451-453 (for Windows and Linux users only). Work through the examples on your own computer (or Plasmid).
 * Skim: [Data Management (Wikipedia)](http://en.wikipedia.org/wiki/Data_management)
 * Skim: [Data System (Wikipedia)](http://en.wikipedia.org/wiki/Data_system)
-* Explore: [ODK](http://opendatakit.org/)
+* Skim: [Data Modeling (Wikipedia)](http://en.wikipedia.org/wiki/Data_modeling)
+* Skim: [UML Requirements Modeling For Business Analysts](http://seattle.bibliocommons.com/item/show/2861156030_uml_requirements_modeling_for_business_analysts) Chapter 5: Use Case Models
+* Explore: [ODK Website](http://opendatakit.org/)
 
 ![readings](images/reading.jpg)
 
