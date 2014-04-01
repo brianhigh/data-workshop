@@ -1,11 +1,14 @@
-Data Management for Researchers
+Data Management
 ========================================================
-author: Brian High, UW DEOHS
-date: 2014-04-03
+For Health Science Research
+--------------------------------------------------------
 
-----
+[//]: # (author: Brian High, UW DEOHS)
+[//]: # (date: 2014-04-03)
 
-![data wave comic](images/data_wave.jpg)
+
+<p style="width: 600px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://www.nuxeo.com/blog/wp-content/uploads/2011/09/111013_contentgeeks_5_volume_vague_hokusai_cut_650.jpg" alt="data wave comic" style="padding-bottom:0.5em;" />Image: Thibaut Soulcié and Katsushika Hokusai</p>
+
 [//]: # (From: http://www.nuxeo.com/blog/industry-insight/2011/10/enterprise-content-trends-2/)
 
 
@@ -56,13 +59,16 @@ Session 1: Data System Essentials
 
 
 
-![nasa data analysis](images/data_analysis.jpg)
+<br/>
+
+<p style="width: 600px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://grin.hq.nasa.gov/IMAGES/SMALL/GPN-2000-000353.jpg" alt="nasa data analysis" style="padding-bottom:0.5em;" />Photo: NASA</p>
+
 [//]: # (From: http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-000353.html)
-<small>Photo: NASA</small>
+
 
 [//]: # (![stanza body](images/stanza_body.jpg))
 [//]: # (From: http://www.stanza.co.uk/body/index.html)
-[//]: # (<small>Photo: &copy; [Stanza](stanza.co.uk)</small>)
+[//]: # (<small style='text-align: right;'>Photo: &copy; [Stanza](stanza.co.uk)</small>)
     
 
 Today's Learning Objectives
@@ -371,4 +377,7 @@ Some Parting Words
 From: [Obamacare's Website Is Crashing Because Backend Was Doomed In The Requirements Stage (Forbes)](http://www.forbes.com/sites/anthonykosner/2013/10/21/obamacares-website-is-crashing-because-backend-was-doomed-in-the-requirements-stage/)
 
 ---
-![bug comic](http://4.bp.blogspot.com/_YzKCMr-tcMM/S9bMZVLyG9I/AAAAAAAAALY/CdAJufVzYzM/s640/32largebugs.jpg)
+
+<p style="width: 500px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://4.bp.blogspot.com/_YzKCMr-tcMM/S9bMZVLyG9I/AAAAAAAAALY/CdAJufVzYzM/s640/32largebugs.jpg" alt="bug comic" style="padding-bottom:0.5em;" />Image: Andy Glover</p>
+
+[//]: # (From: http://cartoontester.blogspot.com/2010/01/big-bugs.html)
