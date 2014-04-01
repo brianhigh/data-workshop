@@ -8,9 +8,7 @@ For Health Science Research
 [//]: # (license: CC0 1.0 Universal)
 [//]: # (https://github.com/brianhigh/data-workshop)
 
-<p style="width: 600px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://www.nuxeo.com/blog/wp-content/uploads/2011/09/111013_contentgeeks_5_volume_vague_hokusai_cut_650.jpg" alt="data wave comic" style="padding-bottom:0.5em;" />Image: Thibaut Soulcié and Katsushika Hokusai</p>
-
-[//]: # (From: http://www.nuxeo.com/blog/industry-insight/2011/10/enterprise-content-trends-2/)
+<p style="width: 600px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://www.stanza.co.uk/body/stanza_+BODY-copy.jpg" alt="stanza body copy" style="padding-bottom:0.5em;" />Photo: &copy; <a href="http://www.stanza.co.uk/body/index.html">Stanza</a>. Used with permission.</p>
 
 
 Course Introduction
@@ -57,19 +55,13 @@ Participant Introductions
 Session 1: Data System Essentials
 ========================================================
 
-
-
+<p style="width: 600px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://grin.hq.nasa.gov/IMAGES/SMALL/GPN-2000-000353.jpg" alt="nasa data analysis" style="padding-bottom:0.5em;" />Photo: <a href="http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-000353.html">NASA</a></p>
 
 <br/>
 
-<p style="width: 600px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://grin.hq.nasa.gov/IMAGES/SMALL/GPN-2000-000353.jpg" alt="nasa data analysis" style="padding-bottom:0.5em;" />Photo: NASA</p>
+How will you manage your data? 
 
-[//]: # (From: http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-000353.html)
-
-
-[//]: # (![stanza body](images/stanza_body.jpg))
-[//]: # (From: http://www.stanza.co.uk/body/index.html)
-[//]: # (<small style='text-align: right;'>Photo: &copy; [Stanza](stanza.co.uk)</small>)
+You need a data *system*.
     
 
 Today's Learning Objectives
@@ -82,6 +74,8 @@ In this session, you will ...
 * Learn to differentiate between spreadsheets and databases
 * Learn how to model system functions and interactions
 * Learn how to create system diagrams
+
+Ultimately, this knowledge will help you select or design the best data system for your needs.
 
 
 Types of Data Systems
@@ -167,7 +161,7 @@ Databases
 Designing a Data System
 ========================================================
 
-To design a data system, we need to identify requirements and map out the various system components. In this course we will learn how to create:
+To design a data system, we need to identify requirements and map out interactions and components. In this course you will learn how to create:
 
 * Use Case Diagrams
 * Data Flow Diagrams
@@ -277,15 +271,15 @@ We will display your diagrams on the screen and discuss them.
 Action Items
 ========================================================
 
-### ![tasks](images/tasks.jpg) Tasks 
+### ![tasks - Icon made by Freepik from Flaticon.com](images/tasks.jpg) Tasks 
 [//]: # (From: http://www.flaticon.com/free-icon/checklist-square-interface-symbol-of-rounded-corners_39862)
-[//]: # (Icon made by Freepik from Flaticon.com)
+[//]: # (Icon made by Freepik from Flaticon.com)              
 
-### ![readings](images/reading.jpg) Readings 
+### ![readings icon - iconsforlife.com](images/reading.jpg) Readings 
 [//]: # (From: http://iconsforlife.com/post/27700442282)
 [//]: # (A series of icons to represent things in everyday life – available for download)
 
-### ![videos](images/watching.jpg) Videos 
+### ![videos - public domain CC0 1.0 icon](images/watching.jpg) Videos 
 [//]: # (From: http://www.iconsdb.com/black-icons/video-play-3-icon.html)
 [//]: # (This icon is provided as CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.)
 
@@ -331,11 +325,11 @@ You can use pen and paper to make the diagram or you can use software tools such
 Task 5: Get files for textbook exercises
 ========================================================
 
-Download [Examples from the textbook](http://practicalcomputing.org/files/pcfb_examples.zip) and extract the example files from the "pcfb_examples.zip" file to the folder "pcfb". Put that folder in whichever environment you will be working. For now, this will probably be your "Documents" folder on your own computer or in your "home directory" on Plasmid. (We will discuss how to transfer files to and from Plasmid in class.)
+Download [Examples from the textbook](http://practicalcomputing.org/files/pcfb_examples.zip) and extract the example files from the "pcfb_examples.zip" file to the folder "pcfb". Put that folder in whichever environment you will be working. For now, this will probably be your "Documents" folder on your own computer or in your "home directory" on a Unix or Linux server.
 
 Readings
 ========================================================
-* Read:  In the PCfB textbook: "Before You Begin", pp. 1-6; Chapters 1-3, pp. 9-43; and Appendix 1, pp. 451-453 (for Windows and Linux users only). Work through the examples on your own computer (or Plasmid).
+* Read:  In the PCfB textbook: "Before You Begin", pp. 1-6; Chapters 1-3, pp. 9-43; and Appendix 1, pp. 451-453 (for Windows and Linux users only). Work through the examples on your own computer (or a server).
 * Skim: [Data Management (Wikipedia)](http://en.wikipedia.org/wiki/Data_management)
 * Skim: [Data System (Wikipedia)](http://en.wikipedia.org/wiki/Data_system)
 * Skim: [Data Modeling (Wikipedia)](http://en.wikipedia.org/wiki/Data_modeling)
@@ -378,6 +372,4 @@ From: [Obamacare's Website Is Crashing Because Backend Was Doomed In The Require
 
 ---
 
-<p style="width: 500px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://4.bp.blogspot.com/_YzKCMr-tcMM/S9bMZVLyG9I/AAAAAAAAALY/CdAJufVzYzM/s640/32largebugs.jpg" alt="bug comic" style="padding-bottom:0.5em;" />Image: Andy Glover</p>
-
-[//]: # (From: http://cartoontester.blogspot.com/2010/01/big-bugs.html)
+<p style="width: 500px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://4.bp.blogspot.com/_YzKCMr-tcMM/S9bMZVLyG9I/AAAAAAAAALY/CdAJufVzYzM/s640/32largebugs.jpg" alt="bug comic" style="padding-bottom:0.5em;" />Image: <a href="http://cartoontester.blogspot.com/2010/01/big-bugs.html">Andy Glover</a>. Used with permission.</p>
