@@ -123,12 +123,13 @@ An excellent short video presentation explaining the differences between databas
 
 * Video: [What are databases?](https://www.youtube.com/watch?v=Ls_LzOZ7x0c) - lynda.com
 
-Watching this video is a "homework" assignment!
+Watching this video is a "homework" assignment.
 
-![db vs ss](http://cdn.differencebetween.net/wp-content/uploads/2009/10/db-spreadsheet.jpg)
-[//]: # (From: http://www.differencebetween.net/technology/difference-between-spreadsheet-and-database/)
+So for now, we will just summarize the differences.
 
-So for now, we will just summarize these differences ...
+---
+
+<p style="width: 490px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="images/spreadsheet_vs_database.jpg" alt="spreadsheet and database" style="padding-bottom:0.5em;" />Source: <a href="http://www.who.int/healthinfo/statistics/bodgbddeathdalyestimates.xls">WHO</a> and <a href="https://developer.mozilla.org/en-US/docs/The_Places_database">Mozilla/dietrich</a></p>
 
 Spreadsheets
 ========================================================
@@ -141,8 +142,8 @@ Spreadsheets
 
 ---
 
-![flat file](images/spreadsheet.jpg)
-[//]: # (From: http://www.softicons.com/web-icons/large-calendar-icons-by-aha-soft/spreadsheet-icon)
+<p style="width: 500px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="images/spreadsheet.jpg" alt="spreadsheet" style="padding-bottom:0.5em;" />Source: <a href="http://www.who.int/healthinfo/statistics/bodgbddeathdalyestimates.xls">WHO</a></p>
+
 
 Databases
 ========================================================
@@ -155,8 +156,8 @@ Databases
 
 ---
 
-![relational database](https://cdn.tutsplus.com/net/authors/lalith-polepeddi/relational-databases-for-dummies-fig4.png)
-[//]: # (From: http://code.tutsplus.com/tutorials/relational-databases-for-dummies--net-30244)
+<p style="width: 500px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="images/mozilla_places-erd.jpg" alt="relational database" style="padding-bottom:0.5em;" />Graphic: <a href="https://developer.mozilla.org/en-US/docs/The_Places_database">Mozilla/dietrich</a></p>
+
 
 Designing a Data System
 ========================================================
@@ -171,8 +172,8 @@ So let's get started!
 
 ---
 
-![data modeling](images/data_modeling.png)
-[//]: # (From: http://en.wikipedia.org/wiki/Data_modeling)
+<p style="width: 500px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="images/data_modeling.png" alt="data modeling" style="padding-bottom:0.5em;" />Graphic: <a href="http://en.wikipedia.org/wiki/File:4-3_Data_Modelling_Today.svg">EPISTLE and its successors / Matthew West, Julian Fowler, Razorbliss / Wikimedia</a></p>
+
 
 Get the Picture: Use Case Diagrams
 ========================================================
@@ -185,7 +186,7 @@ They model what people want to do with a system. A use case describes a "goal", 
 
 ---
 
-<p style="width: 400px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/1/1d/Use_case_restaurant_model.svg" alt="Use Case Diagram" style="padding-bottom:0.5em;" />Graphic: Kishorekumar 62 (redrawn by Marcel Douwe Dekker) / Wikimedia</p>
+<p style="width: 400px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/1/1d/Use_case_restaurant_model.svg" alt="Use Case Diagram" style="padding-bottom:0.5em;" />Graphic: <a href="http://upload.wikimedia.org/wikipedia/commons/1/1d/Use_case_restaurant_model.svg">Kishorekumar 62 (redrawn by Marcel Douwe Dekker) / Wikimedia</a></p>
 
 
 Example System Interactions
@@ -249,7 +250,7 @@ As a group, list of the ways that you and others will accomplish research goals 
 
 List goals as actions in "verb noun" form. Then figure out who interacts to perform those actions.
 
-<p style="width: 350px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Group_visioning_session_-_group_one_-_Stierch.jpg/640px-Group_visioning_session_-_group_one_-_Stierch.jpg" alt="group" style="padding-bottom:0.5em;" />Photo: SarahStierch / Wikimedia</p>
+<p style="width: 350px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Group_visioning_session_-_group_one_-_Stierch.jpg/640px-Group_visioning_session_-_group_one_-_Stierch.jpg" alt="group" style="padding-bottom:0.5em;" />Photo: <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Group_visioning_session_-_group_one_-_Stierch.jpg/640px-Group_visioning_session_-_group_one_-_Stierch.jpg">SarahStierch / Wikimedia</a></p>
 
 ---
 
@@ -265,7 +266,7 @@ Discussion
 
 We will display your diagrams on the screen and discuss them.
 
-<p style="width: 275px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/e/eb/User_journey_discussion.png" alt="discussion" style="padding-bottom:0.5em;" />Graphic: Jagbirlehl / Wikimedia</p>
+<p style="width: 275px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/e/eb/User_journey_discussion.png" alt="discussion" style="padding-bottom:0.5em;" />Graphic: <a href="http://upload.wikimedia.org/wikipedia/commons/e/eb/User_journey_discussion.png">Jagbirlehl / Wikimedia</a></p>
 
 
 Action Items
