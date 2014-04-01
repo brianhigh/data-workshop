@@ -5,7 +5,8 @@ For Health Science Research
 
 [//]: # (author: Brian High, UW DEOHS)
 [//]: # (date: 2014-04-03)
-
+[//]: # (license: CC0 1.0 Universal)
+[//]: # (https://github.com/brianhigh/data-workshop)
 
 <p style="width: 600px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://www.nuxeo.com/blog/wp-content/uploads/2011/09/111013_contentgeeks_5_volume_vague_hokusai_cut_650.jpg" alt="data wave comic" style="padding-bottom:0.5em;" />Image: Thibaut Soulcié and Katsushika Hokusai</p>
 
@@ -190,8 +191,8 @@ They model what people want to do with a system. A use case describes a "goal", 
 
 ---
 
-![Use Case Diagram](http://upload.wikimedia.org/wikipedia/commons/1/1d/Use_case_restaurant_model.svg)
-[//]: # (From: http://en.wikipedia.org/wiki/Use_Case_Diagram)
+<p style="width: 400px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/1/1d/Use_case_restaurant_model.svg" alt="Use Case Diagram" style="padding-bottom:0.5em;" />Graphic: Kishorekumar 62 (redrawn by Marcel Douwe Dekker) / Wikimedia</p>
+
 
 Example System Interactions
 ========================================================
@@ -254,8 +255,7 @@ As a group, list of the ways that you and others will accomplish research goals 
 
 List goals as actions in "verb noun" form. Then figure out who interacts to perform those actions.
 
-![group](images/teamwork.jpg)
-[//]: # (From: http://commons.wikimedia.org/wiki/File:Group_visioning_session_-_group_one_-_Stierch.jpg)
+<p style="width: 350px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Group_visioning_session_-_group_one_-_Stierch.jpg/640px-Group_visioning_session_-_group_one_-_Stierch.jpg" alt="group" style="padding-bottom:0.5em;" />Photo: SarahStierch / Wikimedia</p>
 
 ---
 
@@ -271,8 +271,7 @@ Discussion
 
 We will display your diagrams on the screen and discuss them.
 
-![group](images/discussion.jpg)
-[//]: # (From: http://commons.wikimedia.org/wiki/File:User_journey_discussion.png)
+<p style="width: 275px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/e/eb/User_journey_discussion.png" alt="discussion" style="padding-bottom:0.5em;" />Graphic: Jagbirlehl / Wikimedia</p>
 
 
 Action Items
@@ -284,6 +283,7 @@ Action Items
 
 ### ![readings](images/reading.jpg) Readings 
 [//]: # (From: http://iconsforlife.com/post/27700442282)
+[//]: # (A series of icons to represent things in everyday life – available for download)
 
 ### ![videos](images/watching.jpg) Videos 
 [//]: # (From: http://www.iconsdb.com/black-icons/video-play-3-icon.html)
