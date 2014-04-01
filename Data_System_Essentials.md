@@ -22,7 +22,8 @@ Welcome to a course in data management for scientific research projects.
 * Presentations, demos, hands-on exercises, discussions and "homework"
 * Materials: A textbook, eBooks, websites, and online videos
 
-![practical computing for biologists](http://practicalcomputing.org/images/s_CoverShadow.png)
+<p style="width: 171px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://practicalcomputing.org/images/s_CoverShadow.png" alt="practical computing for biologists" style="padding-bottom:0.5em;" /><a href="http://practicalcomputing.org/">PracticalComputing.org</a></p>
+
 
 Why Take This Course?
 ========================================================
@@ -101,22 +102,25 @@ Types of Data Systems
 
 ## Flat Files
 
-* MS Office Documents (e.g. DOCX, XLSX)
-* Plain Text Files (e.g. CSV, TXT)
-* Output files from instruments (various formats)
-* Output files from stats programs (e.g. SAS7BDAT)
+* MS Office Documents
+* Plain Text Files (CSV, TXT)
+* Instrument Output
+* Stats. Program Output
+
+---
 
 ## Relational Databases
 
-* MS Access
-* FileMaker Pro
-* SQLite
-* MS SQL Server
-* Oracle
-* MySQL
-* PostgreSQL
+* [MS Access](http://en.wikipedia.org/wiki/Microsoft_Access)
+* [FileMaker Pro](http://en.wikipedia.org/wiki/FileMaker)
+* [SQLite](http://en.wikipedia.org/wiki/SQLite)
+* [MS SQL Server](http://en.wikipedia.org/wiki/MS_SQL_Server)
+* [Oracle](http://en.wikipedia.org/wiki/Oracle_Database)
+* [MySQL](http://en.wikipedia.org/wiki/MySQL)
+* [MariaDB](http://en.wikipedia.org/wiki/MariaDB)
+* [PostgreSQL](http://en.wikipedia.org/wiki/PostgreSQL)
 
-Databases versus Spreadsheets
+Spreadsheets and Databases
 ========================================================
 
 An excellent short video presentation explaining the differences between databases and spreadsheets can be found on YouTube: 
@@ -272,9 +276,7 @@ We will display your diagrams on the screen and discuss them.
 Action Items
 ========================================================
 
-### ![tasks - Icon made by Freepik from Flaticon.com](images/tasks.jpg) Tasks 
-[//]: # (From: http://www.flaticon.com/free-icon/checklist-square-interface-symbol-of-rounded-corners_39862)
-[//]: # (Icon made by Freepik from Flaticon.com)              
+### ![tasks](images/tasks.jpg) Tasks              
 
 ### ![readings icon - iconsforlife.com](images/reading.jpg) Readings 
 [//]: # (From: http://iconsforlife.com/post/27700442282)
