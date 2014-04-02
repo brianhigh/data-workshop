@@ -176,7 +176,7 @@ So let's get started!
 
 ---
 
-<p style="width: 500px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="images/data_modeling.png" alt="data modeling" style="padding-bottom:0.5em;" />Graphic: <a href="http://en.wikipedia.org/wiki/File:4-3_Data_Modelling_Today.svg">EPISTLE and its successors / Matthew West, Julian Fowler, Razorbliss / Wikimedia</a></p>
+<p style="width: 500px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="images/data_modeling.png" alt="data modeling" style="padding-bottom:0.5em;" />Graphic: <a href="http://en.wikipedia.org/wiki/File:4-3_Data_Modelling_Today.svg">EPISTLE and its successors /  Matthew West, Julian Fowler, Razorbliss / Wikimedia</a></p>
 
 
 Get the Picture: Use Case Diagrams
@@ -245,7 +245,7 @@ But what good are they, really?
 
 As a researcher, you can use these to clarify your project scope and requirements. They will help you present your project needs to others, such as your collaborators and support staff.
 
-Use case diagrams identify what a system must do and how people will interact with it. Developers use them to design user interfaces and tests for software, such as database applications.
+Use case diagrams identify what a system must do and how people will interact with it. A complete use case model includes use case diagrams and textual descriptions of each use case.
 
 Hands-on Group Exercise
 ========================================================
@@ -336,7 +336,8 @@ Readings
 * Skim: [Data Management (Wikipedia)](http://en.wikipedia.org/wiki/Data_management)
 * Skim: [Data System (Wikipedia)](http://en.wikipedia.org/wiki/Data_system)
 * Skim: [Data Modeling (Wikipedia)](http://en.wikipedia.org/wiki/Data_modeling)
-* Skim: [UML Requirements Modeling For Business Analysts](http://seattle.bibliocommons.com/item/show/2861156030_uml_requirements_modeling_for_business_analysts) Chapter 5: Use Case Models
+* Skim for this week: [UML Requirements Modeling For Business Analysts](http://seattle.bibliocommons.com/item/show/2861156030_uml_requirements_modeling_for_business_analysts) Chapter 5: Use Case Models
+* Skim for next week: [Visual Models For Software Requirements](http://seattle.bibliocommons.com/item/show/2847668030_visual_models_for_software_requirements) Chapter 10: Use Case
 * Explore: [ODK Website](http://opendatakit.org/)
 
 ![readings](images/reading.jpg)
