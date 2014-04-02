@@ -250,7 +250,7 @@ Use case diagrams identify what a system must do and how people will interact wi
 Hands-on Group Exercise
 ========================================================
 
-As a group, list of the ways that you and others will accomplish research goals with your own data system. 
+As a group, list of the ways that you and others will accomplish research goals with your own data system.
 
 List goals as actions in "verb noun" form. Then figure out who interacts to perform those actions.
 
@@ -276,15 +276,39 @@ We will display your diagrams on the screen and discuss them.
 Action Items
 ========================================================
 
-### ![tasks](images/tasks.jpg) Tasks              
+### ![videos - public domain CC0 1.0 icon](images/watching.jpg) Videos 
+[//]: # (From: http://www.iconsdb.com/black-icons/video-play-3-icon.html)
+[//]: # (This icon is provided as CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.)
 
 ### ![readings icon - iconsforlife.com](images/reading.jpg) Readings 
 [//]: # (From: http://iconsforlife.com/post/27700442282)
 [//]: # (A series of icons to represent things in everyday life – available for download)
 
-### ![videos - public domain CC0 1.0 icon](images/watching.jpg) Videos 
-[//]: # (From: http://www.iconsdb.com/black-icons/video-play-3-icon.html)
-[//]: # (This icon is provided as CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.)
+### ![tasks](images/tasks.jpg) Tasks              
+
+Watch Videos
+========================================================
+
+* [Use Case Diagram Tutorial](https://www.youtube.com/playlist?list=PL05DE2D2EDDEA8D68) (watch first two or more)
+* [What are databases?](https://www.youtube.com/watch?v=Ls_LzOZ7x0c)
+* [Discover to Deliver](https://www.youtube.com/watch?v=x9oIpZaXTDs)
+* [ODK](https://www.youtube.com/user/odkteam/videos?shelf_id=1&sort=dd&view=0) (watch one or two)
+
+![watching](images/watching.jpg)
+
+
+Readings
+========================================================
+* Read:  In the PCfB textbook: "Before You Begin", pp. 1-6; Chapters 1-3, pp. 9-43; and Appendix 1, pp. 451-453 (Windows and Linux only.) Try the examples yourself.
+* Skim: [Data Management (Wikipedia)](http://en.wikipedia.org/wiki/Data_management)
+* Skim: [Data System (Wikipedia)](http://en.wikipedia.org/wiki/Data_system)
+* Skim: [Data Modeling (Wikipedia)](http://en.wikipedia.org/wiki/Data_modeling)
+* Skim for this week: [UML Requirements Modeling For Business Analysts](http://seattle.bibliocommons.com/item/show/2861156030_uml_requirements_modeling_for_business_analysts) Chapter 5: Use Case Models
+* Skim for next week: [Visual Models For Software Requirements](http://seattle.bibliocommons.com/item/show/2847668030_visual_models_for_software_requirements) Chapter 10: Use Case
+* Explore: [ODK Website](http://opendatakit.org/)
+
+![readings](images/reading.jpg)
+
 
 Tasks
 ========================================================
@@ -307,50 +331,29 @@ Find out the actual limits on MS Excel (max. file size, number of rows, etc.) th
 
 For the Excel experts (bonus points): How do you link spreadsheets by matching columns headings, control the allowed values which can be entered in a column, protect cells (say, those containing formulas or constants) from being changed, restrict who can modify or view certain spreadsheets, and access the linked spreadsheets from other applications (like websites or statistics programs) over a network? If you know how to do these things, please demonstrate in class for us.
 
-Task 3: Document data sources in a wiki
+Task 3: Data Sources and Needs Analysis
 ========================================================
 
 Use your wiki in Redmine (or GitHub) to document the list of the data sources you will be working with in your project. Note the file types/applications, organizations/persons/processes they came from, and what you will do to/with them. 
 
-Estimate how much storage space your project will consume (megabytes, gigabytes?), how you will need to access your data (from campus, remotely, from a mobile device, using what software?) and what sorts of security protections you will need. 
+The wiki language supports tables, which might be a good way to format the information in the wiki. Later you will use this wiki to further elucidate your "data dictionary". 
 
-The wiki language supports tables, which might be a good way to format the information in the wiki. Later you will use this wiki to further elucidate your "data dictionary". Summarize this in the next session (1 minute presentation).
+Perform a [needs analysis](http://en.wikipedia.org/wiki/Needs_analysis). For example, how will you access your data (from campus, remotely, from a mobile device, using what software?) and what sorts of security protections you will need (encryption, access controls)? What other goals and requirements do you have? Make a list and keep it in your wiki.
 
 Task 3: Use case diagram for your project
 ========================================================
 
-Produce a Use Case Diagram for your research study data system. Make it more detailed than the one we made in class today. 
+Based on your needs analysis, produce a Use Case Diagram for your research study data system. Make it more detailed than the one we made in class today. 
 
-Include all of the data-related tasks associated with your research project from beginning to end. The "audience" for this diagram should be IT staff who will help you develop the data system. Therefore, go into a level of detail which would communicate your data system needs clearly to a IT professional (analyst, designer, developer, or administrator).
+Include all of the data-related goals and tasks associated with your research project from beginning to end. The "audience" for this diagram should be IT staff who will help you develop the data system. Therefore, go into a level of detail which would communicate your data system needs clearly to a IT professional (analyst, designer, developer, or administrator).
 
-You can use pen and paper to make the diagram or you can use software tools such as Creately, Gliffy, Dia, Visio. You will present this diagram (for one or two minutes) in the next class session.
+You can use pen and paper to make the diagram or you can use software tools such as Creately, Gliffy, Dia, or Visio. You will present this diagram (for one minute) in the next class session.
 
 Task 5: Get files for textbook exercises
 ========================================================
 
 Download [Examples from the textbook](http://practicalcomputing.org/files/pcfb_examples.zip) and extract the example files from the "pcfb_examples.zip" file to the folder "pcfb". Put that folder in whichever environment you will be working. For now, this will probably be your "Documents" folder on your own computer or in your "home directory" on a Unix or Linux server.
 
-Readings
-========================================================
-* Read:  In the PCfB textbook: "Before You Begin", pp. 1-6; Chapters 1-3, pp. 9-43; and Appendix 1, pp. 451-453 (for Windows and Linux users only). Work through the examples on your own computer (or a server).
-* Skim: [Data Management (Wikipedia)](http://en.wikipedia.org/wiki/Data_management)
-* Skim: [Data System (Wikipedia)](http://en.wikipedia.org/wiki/Data_system)
-* Skim: [Data Modeling (Wikipedia)](http://en.wikipedia.org/wiki/Data_modeling)
-* Skim for this week: [UML Requirements Modeling For Business Analysts](http://seattle.bibliocommons.com/item/show/2861156030_uml_requirements_modeling_for_business_analysts) Chapter 5: Use Case Models
-* Skim for next week: [Visual Models For Software Requirements](http://seattle.bibliocommons.com/item/show/2847668030_visual_models_for_software_requirements) Chapter 10: Use Case
-* Explore: [ODK Website](http://opendatakit.org/)
-
-![readings](images/reading.jpg)
-
-
-Watch Videos
-========================================================
-
-* [Use Case Diagram Videos](https://www.youtube.com/playlist?list=PL05DE2D2EDDEA8D68) (playlist: watch first two or more)
-* [What are databases?](https://www.youtube.com/watch?v=Ls_LzOZ7x0c)
-* [ODK](https://www.youtube.com/user/odkteam/videos?shelf_id=1&sort=dd&view=0) (watch one or two)
-
-![watching](images/watching.jpg)
 
 See also 
 ========================================================
