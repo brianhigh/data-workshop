@@ -5,8 +5,10 @@ For Scientific Research
 
 [//]: # (author: Brian High, UW DEOHS)
 [//]: # (date: 2014-04-03)
-[//]: # (license: CC0 1.0 Universal)
-[//]: # (https://github.com/brianhigh/data-workshop)
+[//]: # (license: CC0 1.0 Universal,linked-content/images)
+[//]: # (note: License does not apply to external content such as quoted material, linked web pages, images, or videos. These are licensed separately by their authors, publishers or other copyright holders. See attribution links for details.)
+[//]: # (note: Any of the trademarks, service marks, collective marks, design rights, personality rights, or similar rights that are mentioned, used, or cited in the chapters and appendices of the Structured Anaylsis Wiki are the property of their respective owners.)
+[//]: # (homepage: https://github.com/brianhigh/data-workshop)
 
 <p style="width: 600px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://www.stanza.co.uk/body/stanza_+BODY-copy.jpg" alt="stanza body copy" style="padding-bottom:0.5em;" />Photo: &copy; <a href="http://www.stanza.co.uk/body/index.html">Stanza</a>. Used with permission.</p>
 
@@ -156,7 +158,7 @@ Databases
 ========================================================
 
 * Manageable
-* Organized
+* Structured
 * Standardized
 * Scalable
 * Accessible
@@ -276,7 +278,7 @@ We will display your diagrams on the screen and discuss them.
 <p style="width: 275px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/e/eb/User_journey_discussion.png" alt="discussion" style="padding-bottom:0.5em;" />Graphic: <a href="http://upload.wikimedia.org/wikipedia/commons/e/eb/User_journey_discussion.png">Jagbirlehl / Wikimedia</a></p>
 
 
-In the Coming Weeks...
+In the Coming Sessions...
 ========================================================
 
 We will continue the [Needs Analysis](http://en.wikipedia.org/wiki/Needs_analysis) of your data system with:
@@ -293,6 +295,7 @@ Which will present us with some options, typically:
 * Build something ourselves
 
 ... or some combination of the above.
+
 Action Items
 ========================================================
 
