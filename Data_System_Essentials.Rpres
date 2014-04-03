@@ -276,6 +276,23 @@ We will display your diagrams on the screen and discuss them.
 <p style="width: 275px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/e/eb/User_journey_discussion.png" alt="discussion" style="padding-bottom:0.5em;" />Graphic: <a href="http://upload.wikimedia.org/wikipedia/commons/e/eb/User_journey_discussion.png">Jagbirlehl / Wikimedia</a></p>
 
 
+In the Coming Weeks...
+========================================================
+
+We will continue the [Needs Assessment](http://en.wikipedia.org/wiki/Needs_assessment) of your data system with:
+
+* Detailed [Use Cases](http://en.wikipedia.org/wiki/Use_Cases) - including text descriptions
+* More [Systems Analysis](http://en.wikipedia.org/wiki/Systems_analysis) - including [Data Flow Diagrams](http://en.wikipedia.org/wiki/Data_flow_diagram)
+* A [Requirements Document](http://en.wikipedia.org/wiki/Product_requirements_document) - compiling the above
+* A [Feasibility Study](http://en.wikipedia.org/wiki/Feasibility_study)
+
+Which will present us with some options, typically:
+
+* Do nothing (business as usual)
+* Get something "off the shelf" (free or commercial)
+* Build something ourselves
+
+... or some combination of the above.
 Action Items
 ========================================================
 
