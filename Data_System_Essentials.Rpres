@@ -279,7 +279,7 @@ We will display your diagrams on the screen and discuss them.
 In the Coming Weeks...
 ========================================================
 
-We will continue the [Needs Analysis](http://en.wikipedia.org/wiki/Needs_assessment) of your data system with:
+We will continue the [Needs Analysis](http://en.wikipedia.org/wiki/Needs_analysis) of your data system with:
 
 * Detailed [Use Cases](http://en.wikipedia.org/wiki/Use_Cases) - including text descriptions
 * More [Systems Analysis](http://en.wikipedia.org/wiki/Systems_analysis) - including [Data Flow Diagrams](http://en.wikipedia.org/wiki/Data_flow_diagram)
