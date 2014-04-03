@@ -1,7 +1,7 @@
 Data Management
 ========================================================
-For Health Science Research
---------------------------------------------------------
+
+For Scientific Research
 
 [//]: # (author: Brian High, UW DEOHS)
 [//]: # (date: 2014-04-03)
@@ -31,7 +31,7 @@ Why Take This Course?
 * Researchers work with increasing amounts of data.
 * Many students do not have training in data management.
 * Science degree programs generally do not address this gap.
-* It is difficult for non-majors to get into IT courses.
+* It is difficult for "non-majors" to get into IT courses.
 * This leaves students and research teams struggling to cope.
 * And therefore places a heavy burden on IT support.
 * Our data management course provides the needed skills to address these issues.
@@ -44,9 +44,9 @@ Participant Introductions
 ## Please introduce yourself and share your:
 
 * Degree program and emphasis
-* Research topic (in general)
-* Your particular research project
-* The types of data or data systems you will be using
+* Research area (general topic)
+* Your current research project (specific topic)
+* The types of data or data systems you use in this project
 * What you hope to get out of this course
 
 ![be friendly](images/friendly.jpg)
@@ -58,11 +58,13 @@ Session 1: Data System Essentials
 
 <p style="width: 600px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://grin.hq.nasa.gov/IMAGES/SMALL/GPN-2000-000353.jpg" alt="nasa data analysis" style="padding-bottom:0.5em;" />Photo: <a href="http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-000353.html">NASA</a></p>
 
-<br/>
-
-How will you manage your data? 
+How will you *manage* your data? 
 
 You need a data *system*.
+
+There are many *choices*.
+
+To pick the best one, you need to state your *requirements*.
     
 
 Today's Learning Objectives
@@ -75,6 +77,7 @@ In this session, you will ...
 * Learn to differentiate between spreadsheets and databases
 * Learn how to model system functions and interactions
 * Learn how to create system diagrams
+* Learn how to state system requirements
 
 Ultimately, this knowledge will help you select or design the best data system for your needs.
 
@@ -250,19 +253,19 @@ Use case diagrams identify what a system must do and how people will interact wi
 Hands-on Group Exercise
 ========================================================
 
-As a group, list of the ways that you and others will accomplish research goals with your own data system.
+<p style="width: 640px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Group_visioning_session_-_group_one_-_Stierch.jpg/640px-Group_visioning_session_-_group_one_-_Stierch.jpg" alt="group" style="padding-bottom:0.5em;" />Photo: <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Group_visioning_session_-_group_one_-_Stierch.jpg/640px-Group_visioning_session_-_group_one_-_Stierch.jpg">SarahStierch / Wikimedia</a></p>
 
-List goals as actions in "verb noun" form. Then figure out who interacts to perform those actions.
+Create a Use Case Diagram
+========================================================
 
-<p style="width: 350px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Group_visioning_session_-_group_one_-_Stierch.jpg/640px-Group_visioning_session_-_group_one_-_Stierch.jpg" alt="group" style="padding-bottom:0.5em;" />Photo: <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Group_visioning_session_-_group_one_-_Stierch.jpg/640px-Group_visioning_session_-_group_one_-_Stierch.jpg">SarahStierch / Wikimedia</a></p>
+As a group, list the goals (actions, use cases) for your research data system in "verb noun" form. Then figure out who (actors) will interact to perform those actions.
 
----
+Draw a simple use case diagram with stick figures (actors) and elipses (goals, use cases). Use pen and paper or [software](http://alexdp.free.fr/violetumleditor/page.php).
 
-Draw a simple use case diagram with stick figures (actors) and elipses (goals, or use cases). 
 
-All of the elipses should be enclosed in a "system boundary" box, with the stick figures outside of the box. 
+All of the elipses should be enclosed in a "system boundary" box (if the software supports that), with the stick figures outside of the box. 
 
-Lines (interactions) should connect the actors to their goals (use cases). Label the lines with what the actor does (action) to achieve the goal. 
+Lines (interactions) should connect the actors to their goals. Label the lines with what the actor does (action) to achieve the goal. 
 
 
 Discussion
@@ -289,9 +292,12 @@ Action Items
 Watch Videos
 ========================================================
 
-* [Use Case Diagram Tutorial](https://www.youtube.com/playlist?list=PL05DE2D2EDDEA8D68) (watch first two or more)
+Watch these videos in the order listed.
+
 * [What are databases?](https://www.youtube.com/watch?v=Ls_LzOZ7x0c)
 * [Discover to Deliver](https://www.youtube.com/watch?v=x9oIpZaXTDs)
+* [Structured Conversation](https://www.youtube.com/watch?v=fVLNmXq0beE)
+* [Use Case Diagram Tutorial](https://www.youtube.com/playlist?list=PL05DE2D2EDDEA8D68) (watch first two or more)
 * [ODK](https://www.youtube.com/user/odkteam/videos?shelf_id=1&sort=dd&view=0) (watch one or two)
 
 ![watching](images/watching.jpg)
@@ -300,12 +306,10 @@ Watch Videos
 Readings
 ========================================================
 * Read:  In the PCfB textbook: "Before You Begin", pp. 1-6; Chapters 1-3, pp. 9-43; and Appendix 1, pp. 451-453 (Windows and Linux only.) Try the examples yourself.
-* Skim: [Data Management (Wikipedia)](http://en.wikipedia.org/wiki/Data_management)
-* Skim: [Data System (Wikipedia)](http://en.wikipedia.org/wiki/Data_system)
-* Skim: [Data Modeling (Wikipedia)](http://en.wikipedia.org/wiki/Data_modeling)
-* Skim for this week: [UML Requirements Modeling For Business Analysts](http://seattle.bibliocommons.com/item/show/2861156030_uml_requirements_modeling_for_business_analysts) Chapter 5: Use Case Models
-* Skim for next week: [Visual Models For Software Requirements](http://seattle.bibliocommons.com/item/show/2847668030_visual_models_for_software_requirements) Chapter 10: Use Case
-* Explore: [ODK Website](http://opendatakit.org/)
+* Skim Wikipedia articles: [Data Management](http://en.wikipedia.org/wiki/Data_management), [Data System](http://en.wikipedia.org/wiki/Data_system), [Data Modeling](http://en.wikipedia.org/wiki/Data_modeling), [Needs Analysis](http://en.wikipedia.org/wiki/Needs_analysis)
+* Skim eBook chapter: [UML Requirements Modeling For Business Analysts](http://seattle.bibliocommons.com/item/show/2861156030_uml_requirements_modeling_for_business_analysts) Chapter 5: Use Case Models
+* Optional - Skim eBook chapter: [Visual Models For Software Requirements](http://seattle.bibliocommons.com/item/show/2847668030_visual_models_for_software_requirements) Chapter 10: Use Case
+* Explore website: [ODK](http://opendatakit.org/)
 
 ![readings](images/reading.jpg)
 
@@ -327,27 +331,29 @@ If the site is popular, you will likely find a blog, news article or conference 
 Task 2: Limits to Excel as a "database"
 ========================================================
 
-Find out the actual limits on MS Excel (max. file size, number of rows, etc.) that would make it unusable as a database if those limits were exceeded. (These may vary depending on the software version.) How about for OpenOffice (LibreOffice) "Calc"?
+Find out the actual limits on MS Excel (max. file size, number of rows, etc.) that would make it unusable as a database if those limits were exceeded. (These may vary depending on the software version.) 
+
+How about for OpenOffice (LibreOffice) "Calc"? (bonus points)
 
 For the Excel experts (bonus points): How do you link spreadsheets by matching columns headings, control the allowed values which can be entered in a column, protect cells (say, those containing formulas or constants) from being changed, restrict who can modify or view certain spreadsheets, and access the linked spreadsheets from other applications (like websites or statistics programs) over a network? If you know how to do these things, please demonstrate in class for us.
 
 Task 3: Data Sources and Needs Analysis
 ========================================================
 
-Use your wiki in Redmine (or GitHub) to document the list of the data sources you will be working with in your project. Note the file types/applications, organizations/persons/processes they came from, and what you will do to/with them. 
+Use your wiki in Redmine (or GitHub, etc.) to document the list of the data sources you will be working with in your project. Note the file types/applications, organizations/persons/processes they came from, and what you will do to/with them. 
 
 The wiki language supports tables, which might be a good way to format the information in the wiki. Later you will use this wiki to further elucidate your "data dictionary". 
 
-Perform a [needs analysis](http://en.wikipedia.org/wiki/Needs_analysis). For example, how will you access your data (from campus, remotely, from a mobile device, using what software?) and what sorts of security protections you will need (encryption, access controls)? What other goals and requirements do you have? Make a list and keep it in your wiki.
+Perform a [needs analysis](http://en.wikipedia.org/wiki/Needs_analysis). For example, how will you access your data (from campus, remotely, from a mobile device, using what software?) and what sorts of security protections you will need (encryption, access controls)? What other goals and requirements do you have? Store the detailed list in your wiki.
 
-Task 3: Use case diagram for your project
+Task 4: Use Case Diagram for your project
 ========================================================
 
-Based on your needs analysis, produce a Use Case Diagram for your research study data system. Make it more detailed than the one we made in class today. 
+Based on your needs analysis, produce a Use Case Diagram for your research study data system. Make it more detailed than the one we made in class today. Break out complicated actions into separate, more detailed, diagrams if you need to.
 
-Include all of the data-related goals and tasks associated with your research project from beginning to end. The "audience" for this diagram should be IT staff who will help you develop the data system. Therefore, go into a level of detail which would communicate your data system needs clearly to a IT professional (analyst, designer, developer, or administrator).
+Include all of the data-related goals and tasks associated with your research project from beginning to end. Go into a level of detail which would communicate your data system needs clearly to a IT professional (analyst, designer, developer, or administrator).
 
-You can use pen and paper to make the diagram or you can use software tools such as Creately, Gliffy, Dia, or Visio. You will present this diagram (for one minute) in the next class session.
+You can use pen and paper to make the diagram or you can use software tools such as Creately, Gliffy, Dia, or [Violet](http://alexdp.free.fr/violetumleditor/page.php). You will present this diagram (for two minutes) in the next class session.
 
 Task 5: Get files for textbook exercises
 ========================================================
@@ -363,11 +369,18 @@ See also
 * [What database actually FACEBOOK uses?](http://www.techworm.net/2013/05/what-database-actually-facebook-uses.html)
 * [What database does Facebook use?](http://www.prodromus.com/2011/01/27/what-database-does-facebook-use)
 * [NYT: Healthcare.gov Project Chaos Due Partly To Unorthodox Database Choice (Slashdot)](http://developers.slashdot.org/story/13/11/24/1437203/nyt-healthcaregov-project-chaos-due-partly-to-unorthodox-database-choice)
-* [What are databases? Video](https://www.youtube.com/watch?v=Ls_LzOZ7x0c)
-* [Use Case Diagram Videos](https://www.youtube.com/playlist?list=PL05DE2D2EDDEA8D68)
 * [Topics in Data Management](http://en.wikipedia.org/wiki/Data_management#Topics_in_Data_Management)
 * [*That* information, *These* data?](http://en.wikipedia.org/wiki/Data#Usage_in_English)
 * [Is "Data" Singular or Plural?](http://www.quickanddirtytips.com/education/grammar/is-data-singular-or-plural?page=all)
+
+
+Questions and Comments 
+========================================================
+
+<p style="width: 380px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Happy_Question.svg/380px-Happy_Question.svg.png" alt="question" style="padding-bottom:0.5em;" />Image: <a href=http://commons.wikimedia.org/wiki/File:Happy_Question.svg">© Nevit Dilmen</a> / Wikimedia</p>
+
+
+
 
 Some Parting Words
 ========================================================
