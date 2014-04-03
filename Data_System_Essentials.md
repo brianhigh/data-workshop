@@ -322,11 +322,12 @@ Watch these videos in the order listed.
 
 Readings
 ========================================================
-* Read:  In the PCfB textbook: "Before You Begin", pp. 1-6; Chapters 1-3, pp. 9-43; and Appendix 1, pp. 451-453 (Windows and Linux only.) Try the examples yourself.
-* Skim Wikipedia articles: [Data Management](http://en.wikipedia.org/wiki/Data_management), [Data System](http://en.wikipedia.org/wiki/Data_system), [Data Modeling](http://en.wikipedia.org/wiki/Data_modeling), [Needs Analysis](http://en.wikipedia.org/wiki/Needs_analysis)
+* Read:  In the PCfB textbook: "Before You Begin", pp. 1-6; Chapters 1-3, pp. 9-43; and Appendix 1, pp. 451-453
+* Read: [Use Case Tips](http://www.gatherspace.com/static/use_case_example.html)
+* Skim Wikipedia articles: [Data Management](http://en.wikipedia.org/wiki/Data_management), [Data System](http://en.wikipedia.org/wiki/Data_system), [Data Modeling](http://en.wikipedia.org/wiki/Data_modeling), [Needs Analysis](http://en.wikipedia.org/wiki/Needs_analysis), [Agile Modeling](http://en.wikipedia.org/wiki/Agile_Modeling), [SDLC](http://en.wikipedia.org/wiki/Systems_Development_Life_Cycle)
 * Skim eBook chapter: [UML Requirements Modeling For Business Analysts](http://seattle.bibliocommons.com/item/show/2861156030_uml_requirements_modeling_for_business_analysts) Chapter 5: Use Case Models
 * Optional - Skim eBook chapter: [Visual Models For Software Requirements](http://seattle.bibliocommons.com/item/show/2847668030_visual_models_for_software_requirements) Chapter 10: Use Case
-* Explore website: [ODK](http://opendatakit.org/)
+* Explore websites: [Agile Modeling](http://www.agilemodeling.com/), [ODK](http://opendatakit.org/)
 
 ![readings](images/reading.jpg)
 
@@ -387,7 +388,7 @@ See also
 * [What database does Facebook use?](http://www.prodromus.com/2011/01/27/what-database-does-facebook-use)
 * [NYT: Healthcare.gov Project Chaos Due Partly To Unorthodox Database Choice (Slashdot)](http://developers.slashdot.org/story/13/11/24/1437203/nyt-healthcaregov-project-chaos-due-partly-to-unorthodox-database-choice)
 * [Topics in Data Management](http://en.wikipedia.org/wiki/Data_management#Topics_in_Data_Management)
-* [*That* information, *These* data?](http://en.wikipedia.org/wiki/Data#Usage_in_English)
+* eBook: [The Nimble Elephant](http://seattle.bibliocommons.com/item/show/2843019030_the_nimble_elephant) - "agile" data models
 * [Is "Data" Singular or Plural?](http://www.quickanddirtytips.com/education/grammar/is-data-singular-or-plural?page=all)
 
 
