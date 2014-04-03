@@ -392,6 +392,7 @@ See also
 * [NYT: Healthcare.gov Project Chaos Due Partly To Unorthodox Database Choice (Slashdot)](http://developers.slashdot.org/story/13/11/24/1437203/nyt-healthcaregov-project-chaos-due-partly-to-unorthodox-database-choice)
 * [Topics in Data Management](http://en.wikipedia.org/wiki/Data_management#Topics_in_Data_Management)
 * eBook: [The Nimble Elephant](http://seattle.bibliocommons.com/item/show/2843019030_the_nimble_elephant) - "agile" data models
+* eBook: [UML Database Modeling Workbook](http://proquest.safaribooksonline.com.ezproxy.spl.org:2048/book/software-engineering-and-development/uml/9781935504511)
 * [Is "Data" Singular or Plural?](http://www.quickanddirtytips.com/education/grammar/is-data-singular-or-plural?page=all)
 
 
