@@ -238,4 +238,4 @@ Questions and Comments
 Some Parting Words
 ========================================================
 
-<p style="width: 700px; float: right; clear: right; margin-bottom: 5px; margin-left: 14px; text-align: right; font-weight: bold; font-size: 12pt;"><img src="images/in_the_cloud.png" alt="in the cloud" style="padding-bottom:0.5em;" />Image: <a href="http://geek-and-poke.com/">Geek and Poke</a></p>
+<p style="width: 700px; float: right; clear: right; margin-bottom: 5px; margin-left: 14px; text-align: right; font-weight: bold; font-size: 12pt;"><img src="images/in_the_cloud.png" alt="in the cloud" style="padding-bottom:0.5em;" />Image: <a href="http://geek-and-poke.com/">Geek and Poke</a>. Used with permission.</p>
