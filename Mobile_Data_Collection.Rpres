@@ -63,15 +63,18 @@ Open Data Kit is an open source tool for solving many data collection problems. 
 
 ODK Solutions: Secure Data Collection
 =======================================
-left: 70%
+
+ODK Collect is designed with security in mind...
 
 * Data transmission to the server is encrypted with SSL
-* Data is stored in a secure database on the ODK server
 
----
+And in our department, with our own ODK Aggregate server ...
 
-<p style="width: 128px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/8/81/Vista-password.png" alt="lock icon" style="padding-bottom:0.5em;">Source: <a href="http://sa-ki.deviantart.com/">sa-ki.deviantart.com</a></p>
-
+* Access to the ODK server is protected by a firewall
+* Each ODK project has a unique database instance
+* Each database instance has a unique account and password
+* The ODK server is regularly updated and backed up
+* The ODK server is in a secured room with auxilliary power 
 
 ODK Solutions: Several Data Types
 =======================================
