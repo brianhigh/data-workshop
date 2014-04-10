@@ -48,6 +48,7 @@ Common Data Collection Problems
 
 Open Data Kit
 ========================================================
+left: 50%
 
 Open Data Kit is an open source tool for solving many data collection problems. It consists of:
  
@@ -62,9 +63,12 @@ Open Data Kit is an open source tool for solving many data collection problems. 
 
 ODK Solutions: Secure Data Collection
 =======================================
+left: 70%
 
 * Data transmission to the server is encrypted with SSL
 * Data is stored in a secure database on the ODK server
+
+---
 
 <p style="width: 128px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/8/81/Vista-password.png" alt="lock icon" style="padding-bottom:0.5em;">Source: <a href="http://sa-ki.deviantart.com/">sa-ki.deviantart.com</a></p>
 
@@ -93,11 +97,11 @@ Forms are powerful and flexible, for example:
 * Alternate languages for survey questions
 * Audio, image, and video components to questions
 * Branching question paths:
-  If Q1 is 'yes', show Q2
+  If A1 is 'yes', show Q2
 * Calculations on answered questions: Q3 = A1 + A2
 * Multiple choice questions: single or multiple answer
 * Repeatable question sections
-* Automatic meta data, such as survey start end end times
+* Automatic meta data, such as survey start and end times
 
 
 ODK Demos...
