@@ -143,7 +143,8 @@ ODK Aggregate Demo
 
 ---
 
-![ODK Aggregate](http://opendatakit.org/wp-content/uploads/2011/12/aggregate.png)
+<p style="width: 550px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://opendatakit.org/wp-content/uploads/2011/12/aggregate.png" alt="ODK Aggregate" style="padding-bottom:0.5em;">Source: <a href="http://opendatakit.org/">Open Data Kit</a></p>
+
   
 
 ODK Form Creation Demo
@@ -157,7 +158,7 @@ There are three ways to make data input forms for ODK:
 
 ---
 
-![ODK Web Build](https://www.google.com/earth/outreach/images/tutorials_odk_gs3.jpg)
+<p style="width: 500px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="https://www.google.com/earth/outreach/images/tutorials_odk_gs3.jpg" alt="ODK Web Build" style="padding-bottom:0.5em;">Source: <a href="http://opendatakit.org/">Open Data Kit</a></p>
 
 
 Hands-on Group Exercise
