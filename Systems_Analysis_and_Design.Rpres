@@ -17,8 +17,17 @@ Session 3: Systems Analysis and Design
 
 ![systems analysis and design](images/analysis_and_design.png)
 
-Systems Development Life Cycle
+Systems Development Life Cycle (SDLC)
 ==================================
+
+One of several approaches to systems development is the [SDLC](http://en.wikipedia.org/wiki/Systems_development_life_cycle), also called the "Waterfall" model.
+
+<p style="width: 500px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Waterfall_model.svg/500px-Waterfall_model.svg.png" alt="waterfall model" style="padding-bottom:0.5em;" />Image: <a href="http://commons.wikimedia.org/wiki/File:Waterfall_model.svg">Peter Kemp / Paul Smith / Wikimedia</a></p>
+
+
+Phases of the SDLC
+==================================
+
 
 | Phase | Purpose |
 | ----- | ------- |
@@ -29,7 +38,7 @@ Development | Build the working system from the design |
 Integration and testing | Make sure system works |
 Acceptance, installation, deployment | Put system to real use |
 Maintenance | Keep system running properly |
-Evaluation | Make sure system is serving its purpose |
+Evaluation | Make sure system is still serving its purpose |
 Disposal | Remove system when no longer needed |
 
 (Source: [Wikipedia](http://en.wikipedia.org/wiki/Systems_development_life-cycle))
@@ -38,18 +47,18 @@ Disposal | Remove system when no longer needed |
 An Example Research Project
 ==================================
 
-Let's imagine that we are to conduct a study like this:
+Let's imagine that we are to conduct a research study like this:
  
 * We will sample various surfaces for bacteria.
 * Some of those surfaces will be on human subjects.
 * We will analyze the bacteria samples in the lab.
 * Test results will be entered into a data system.
-* We will perform statistical analyses on the data. 
+* We will perform statistical analyses on the test results. 
 
 Goals List
 ===================================
 
-Stakeholder goals for system, in "verb noun" form:
+The stakeholder goals for system, in "verb noun" form are:
 
 | Role | Goal |
 | ---- | ---- |
@@ -62,6 +71,16 @@ Stakeholder goals for system, in "verb noun" form:
 | Lab Tech | Test Sample  |
 | Lab Tech | Dispose Sample |
 | Statistician | Analyze Results |
+
+
+Structured Narratives
+====================================
+
+From this goals list, we can create use case diagrams and a structured narrative. A structured narrative is a description which conforms to some sort of standardized format. 
+
+For the purposes of our preliminary investigation, we will just add one-sentence descriptions for each goal in our list. This simple structure will allow us to develop a process model using various types of diagrams. From our process model, we will develop a data model.
+
+For even more clarity, one can also develop [use case narratives](http://businessanalystmentor.com/2008/12/03/use-cases-the-use-case-narrative/), which go into far greater detail. This level of detail might be useful in the systems analysis phase.
 
 Structured Narrative: Part 1, Subject Data
 ====================================
@@ -138,27 +157,22 @@ Data Flow Diagrams
 Context Diagrams (Level 0)
 
 * [Context Diagram with Gane/Sarson Symbols](images/Lab_Data_System_Context_Diagram_Gane.png)
-* [Context Diagram with Yourdon/DeMarco Symbols](images/Lab_Data_System_Context_Diagram_Yourdon_Angled_Lines.png)
 * [Context Diagram with Yourdon/DeMarco Symbols and Curved Lines](images/Lab_Data_System_Context_Diagram_Yourdon_V1.png)
-* [Context Diagram with Yourdon/DeMarco Symbols and Curved Lines without Subject Entity](images/Lab_Data_System_Context_Diagram_Yourdon_V2.png)
+* [Context Diagram with Yourdon/DeMarco Symbols without Subject Entity](images/Lab_Data_System_Context_Diagram_Yourdon_V2.png)
 
 Data Flow Diagrams (Level 1 and higher)
 
-* [Level 1 Data Flow Diagram](images/Lab_Data_System_Level_1_DFD_v1.png)
+* [Level 1 Data Flow Diagram](images/Lab_Data_System_Level_1_DFD_Yourdon_Angled_Lines.png)
+* [Level 1 Data Flow Diagram with Curved Lines](images/Lab_Data_System_Level_1_DFD_v1.png)
 * [Level 1 Data Flow Diagram without Subject Entity](images/Lab_Data_System_Level_1_DFD_Yourdon_v2.png)
 
 
-Context Diagram: Gane/Sarson Symbols
+Context Diagram (Gane/Sarson Symbols)
 ====================================
 
 ![Context Diagram with Gane/Sarson Symbols](images/Lab_Data_System_Context_Diagram_Gane.png)
 
-Using Yourdon/DeMarco Symbols
-====================================
-
-![Context Diagram with Yourdon/DeMarco Symbols](images/Lab_Data_System_Context_Diagram_Yourdon_Angled_Lines.png)
-
-Yourdon/DeMarco with Curved Lines
+Context Diagram (Yourdon/DeMarco)
 ====================================
 
 ![Context Diagram with Yourdon/DeMarco Symbols and Curved Lines](images/Lab_Data_System_Context_Diagram_Yourdon_V1.png)
@@ -168,7 +182,13 @@ Context Diagram: Without Subject Entity
 
 ![Context Diagram with Yourdon/DeMarco Symbols and Curved Lines without Subject Entity](images/Lab_Data_System_Context_Diagram_Yourdon_V2.png)
 
+
 Level 1 Data Flow Diagram
+====================================
+
+![Level 1 Data Flow Diagram](images/Lab_Data_System_Level_1_DFD_Yourdon_Angled_Lines.png)
+
+Level 1 DFD ... with Curved Lines
 ====================================
 
 ![Level 1 Data Flow Diagram](images/Lab_Data_System_Level_1_DFD_v1.png)
