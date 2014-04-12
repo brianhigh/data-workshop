@@ -71,6 +71,7 @@ Structured Narrative: Part 1, Subject Data
 | Subject | Sign Consent Form  | If a human subject is sampled, the subject must sign a consent form. |
 | Sampler | Collect Consent Form | The sampler must collect the consent form before sampling the subject. |
 | Subject | Complete Subject Data Form | The subject must complete a subject data form by providing personal information. |
+| Sampler | Collect Subject Data Form | The sampler must collect the subject data form before sampling the subject. |
 
 Structured Narrative: Part 2, Sampling
 ====================================
