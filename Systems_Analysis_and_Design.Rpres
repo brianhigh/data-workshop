@@ -78,14 +78,15 @@ Structured Narratives
 
 From this goals list, we can create use case diagrams and a structured narrative. A structured narrative is a description which conforms to some sort of standardized format. 
 
-For the purposes of our preliminary investigation, we will just add one-sentence descriptions for each goal in our list. This simple structure will allow us to develop a process model using various types of diagrams. From our process model, we will develop a data model.
+For the purposes of our preliminary investigation, we will just add one-sentence descriptions for each goal in our list. Our description will use terms such as "if", "must" or "may" and phrases like "for each" or "for all". 
 
-For even more clarity, one can also develop [use case narratives](http://businessanalystmentor.com/2008/12/03/use-cases-the-use-case-narrative/), which go into far greater detail. This level of detail might be useful in the systems analysis phase.
+This simple structure will allow us to develop a process model using various types of diagrams. From our process model, we will develop a data model.
+
 
 Structured Narrative: Part 1, Subject Data
 ====================================
 
-| Actor | Use Case | Structured Narrative | 
+| Actor | Use Case | Description | 
 | ----- | -------- | -------------------- |
 | Subject | Sign Consent Form  | If a human subject is sampled, the subject must sign a consent form. |
 | Sampler | Collect Consent Form | The sampler must collect the consent form before sampling the subject. |
@@ -95,7 +96,7 @@ Structured Narrative: Part 1, Subject Data
 Structured Narrative: Part 2, Sampling
 ====================================
 
-| Actor | Use Case | Structured Narrative | 
+| Actor | Use Case | Description | 
 | ----- | -------- | -------------------- |
 | Sampler | Enter Subject Data | The sampler must enter subject information into the system for each human subject sampled. |
 | Sampler | Collect Sample  | The sampler may collect a sample from a human subject or from a non-human surface. |
@@ -109,7 +110,7 @@ Structured Narrative: Part 2, Sampling
 Structured Narrative: Part 3, Analysis
 ====================================
 
-| Actor | Use Case | Structured Narrative | 
+| Actor | Use Case | Description | 
 | ----- | -------- | -------------------- |
 | Lab Tech | Receive Sample | The laboratory technician must receive the sample when it is delivered. |
 | Lab Tech | Store Sample | The laboratory technician must store the sample in a cooler (refrigerator). |
@@ -119,6 +120,14 @@ Structured Narrative: Part 3, Analysis
 | Lab Tech | Dispose Sample | The laboratory technician must dispose of the sample after it is no longer needed. |
 | Statistician | Query Results | The statistician may query the system for test results. |
 | Statistician | Analyze Results | The statistician may analyze the results using statistical tools. |
+
+
+Use Case Narratives
+====================================
+
+For even more clarity, one can also develop [use case narratives](http://businessanalystmentor.com/2008/12/03/use-cases-the-use-case-narrative/), which go into far greater detail. This level of detail might be useful in later design phases.
+
+<p style="width: 800px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://www.cigi.illinois.edu/cybergis-project/img/usecaseimg.png" alt="use case narrative" style="padding-bottom:0.5em;" />Image: <a href="http://www.cigi.illinois.edu/cybergis-project/Feb2011Workshop.php">UI CyberGIS Project</a></p>
 
 
 Use Case Diagrams: Project Overview
