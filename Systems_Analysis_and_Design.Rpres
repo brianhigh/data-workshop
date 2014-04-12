@@ -4,7 +4,7 @@ Data Management
 For Scientific Research
 
 [//]: # (author: Brian High, UW DEOHS)
-[//]: # (date: 2014-04-03)
+[//]: # (date: 2014-04-17)
 [//]: # (license: CC0 1.0 Universal,linked-content/images)
 [//]: # (note: License does not apply to external content such as quoted material, linked web pages, images, or videos. These are licensed separately by their authors, publishers or other copyright holders. See attribution links for details.)
 [//]: # (note: Any of the trademarks, service marks, collective marks, design rights, personality rights, or similar rights that are mentioned, used, or cited in the chapters and appendices of the Structured Anaylsis Wiki are the property of their respective owners.)
@@ -20,15 +20,17 @@ Session 3: Systems Analysis and Design
 Systems Development Life Cycle
 ==================================
 
-1. *Preliminary analysis* ... Define problem, scope, options, costs
-2. *Systems analysis* ... Map processes, define requirements
-3. *Systems design* ... Precise description of modular system
-4. *Development* ... Build the working system from the design
-5. *Integration and testing* ... Make sure it works
-6. *Acceptance, installation, deployment* ... Put it to use
-7. *Maintenance* ... Keep it running
-8. *Evaluation* ... Make sure it is serving its purpose
-9. *Disposal* ... Remove it when no longer needed
+| Phase | Purpose |
+| ----- | ------- |
+Preliminary analysis | Define purpose, scope, options, costs |
+Systems analysis | Map processes, define requirements |
+Systems design | Precise description of modular system |
+Development | Build the working system from the design |
+Integration and testing | Make sure system works |
+Acceptance, installation, deployment | Put system to real use |
+Maintenance | Keep system running properly |
+Evaluation | Make sure system is serving its purpose |
+Disposal | Remove system when no longer needed |
 
 (Source: [Wikipedia](http://en.wikipedia.org/wiki/Systems_development_life-cycle))
 
@@ -47,7 +49,7 @@ Let's imagine that we are to conduct a study like this:
 Goals List
 ===================================
 
-System goals, in "verb noun" form:
+Stakeholder goals for system, in "verb noun" form:
 
 | Role | Goal |
 | ---- | ---- |
@@ -70,7 +72,7 @@ Structured Narrative: Part 1, Subject Data
 | Sampler | Collect Consent Form | The sampler must collect the consent form before sampling the subject. |
 | Subject | Complete Subject Data Form | The subject must complete a subject data form by providing personal information. |
 
-Structured Narrative: Part 2, Sample Data
+Structured Narrative: Part 2, Sampling
 ====================================
 
 | Actor | Use Case | Structured Narrative | 
