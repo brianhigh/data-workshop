@@ -5,9 +5,9 @@ For Scientific Research
 
 [//]: # (author: Brian High, UW DEOHS)
 [//]: # (date: 2014-04-17)
-[//]: # (license: CC0 1.0 Universal,linked-content/images)
+[//]: # (license: CC0 1.0 Universal, linked-content/images)
 [//]: # (note: License does not apply to external content such as quoted material, linked web pages, images, or videos. These are licensed separately by their authors, publishers or other copyright holders. See attribution links for details.)
-[//]: # (note: Any of the trademarks, service marks, collective marks, design rights, personality rights, or similar rights that are mentioned, used, or cited in the chapters and appendices of the Structured Anaylsis Wiki are the property of their respective owners.)
+[//]: # (note: Any of the trademarks, service marks, collective marks, design rights, personality rights, or similar rights that are mentioned, used, or cited in the presentations and wiki of the Data Management For Scientific Research workshop/course are the property of their respective owners.)
 [//]: # (homepage: https://github.com/brianhigh/data-workshop)
 
 <p style="width: 600px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://www.stanza.co.uk/body/stanza_+BODY-copy.jpg" alt="stanza body copy" style="padding-bottom:0.5em;" />Photo: &copy; <a href="http://www.stanza.co.uk/body/index.html">Stanza</a>. Used with permission.</p>
@@ -212,14 +212,20 @@ Level 1 DFD ... Without Subject Entity
 Hands-on Group Exercise
 ========================================================
 
-Working as a group, ... for your project.
+Working as a group, with a pen or pencil and paper, make some systems analysis diagrams. Sticky notes, a whiteboard, etc. may be helpful when brainstorming and designing the diagrams.
 
-<p style="width: 640px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Group_visioning_session_-_group_one_-_Stierch.jpg/640px-Group_visioning_session_-_group_one_-_Stierch.jpg" alt="group" style="padding-bottom:0.5em;" />Photo: <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Group_visioning_session_-_group_one_-_Stierch.jpg/640px-Group_visioning_session_-_group_one_-_Stierch.jpg">SarahStierch / Wikimedia</a></p>
+Choice A: Transform your use case diagram(s) into a context diagram and level 1 DFD for your project, especially if there are many data processing steps or data sources. 
+
+---
+
+<p style="width: 400px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Group_visioning_session_-_group_one_-_Stierch.jpg/640px-Group_visioning_session_-_group_one_-_Stierch.jpg" alt="group" style="padding-bottom:0.5em;" />Photo: <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Group_visioning_session_-_group_one_-_Stierch.jpg/640px-Group_visioning_session_-_group_one_-_Stierch.jpg">SarahStierch / Wikimedia</a></p>
+
+Choice B: Alternatively, if there are complex decisions ("extends") or multiple entities performing various actions, then make a flow chart or swim lane diagram from your use case diagram(s). 
 
 Discussion
 ========================================================
 
-We will discuss your ....
+Explain your diagrams to the group as though you were presenting your data system requirements to those who would build the data system. Ask questions that a system implementer might ask, especially where there are ambiguities.
 
 <p style="width: 275px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/e/eb/User_journey_discussion.png" alt="discussion" style="padding-bottom:0.5em;" />Graphic: <a href="http://upload.wikimedia.org/wikipedia/commons/e/eb/User_journey_discussion.png">Jagbirlehl / Wikimedia</a></p>
 
@@ -240,10 +246,10 @@ Action Items (videos, readings,  and tasks)
       </td>
       <td valign="middle">
          <ul>
-            <li>
-            <li>
-            <li>        
-            <li>
+            <li><a href="https://www.youtube.com/watch?v=O4PXqpv8TAw">Conceptual Data Modeling</a>
+            <li><a href="https://www.youtube.com/watch?v=V5DyvUfsboA">Defining table relationships</a>
+            <li><A href="https://www.youtube.com/watch?v=SVV7HjKmFY4">Databases and SQL</a>
+            <li><a href="https://www.youtube.com/watch?v=-fQ-bRllhXc">ERD Training</a>
          </ul>
       </td>
    </tr>
@@ -251,11 +257,11 @@ Action Items (videos, readings,  and tasks)
       <td width="128" valign="middle"><img width="128" height="128" alt="readings" src="images/reading.jpg">
       </td>
       <td valign="middle">
-         <ul>
-            <li>
-            <li>
-            <li>
-            <li>
+               <ul>
+            <li><A href="http://practicalcomputing.org/about">PCfB</a> textbook: Chapter5. Handling Text in the Shell
+            <li>Skim: Wikipedia: <a href="http://en.wikipedia.org/wiki/Requirements_analysis">Req. anal.</a>, <a href="http://en.wikipedia.org/wiki/Database_design"</a>DB design, <a href="http://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model">E-R model</a>, and <a href="http://en.wikipedia.org/wiki/Database_normalization">normalization</a>
+            <li>Explore: <A href="http://ciso.uw.edu/privacy/">UW Privacy Program</a>, <a href="http://yourdon.com/strucanalysis/wiki/index.php/Introduction">Structured Analysis Wiki</a>
+            <li>Optional- Skim: <a href="http://www.amazon.com/dp/0123747309">RDDaI3CE</a> textbook: Chapters 3-4
          </ul>
       </td>
    </tr>
@@ -263,10 +269,10 @@ Action Items (videos, readings,  and tasks)
       <td width="128" valign="middle"><img width="128" height="128" alt="tasks" src="images/tasks.jpg"></td>
       <td valign="middle">
          <ul>
-            <li> 
-            <li>
-            <li>
-            <li>
+            <li> Create enough diagrams to describe your data system "unambiguously"
+            <li> Post your system documents and diagrams in your Redmine wiki
+            <li> Organize your Redmine material into a "Requirements Document"
+            <li> Refer to the example in the "Data Management" Redmine project wiki
          </ul>
       </td>
    </tr>
@@ -276,6 +282,16 @@ Action Items (videos, readings,  and tasks)
 See Also
 ========================================================
 
+* [Creately - Ultimate Flowchart Guide](http://creately.com/blog/diagrams/flowchart-guide-flowchart-tutorial/)
+* [DFD over Flowcharts PDF](http://ratandon.mysite.syr.edu/cis453/notes/DFD_over_Flowcharts.pdf)
+* [DFD Slideshow](http://www.slideshare.net/NidhiSharma78/data-flow-diagram-17909732)
+* [Creately DFD](http://creately.com/diagram-community/popular/t/data-flow)
+* [DFDs - and follow link to "Article"](http://indianatech2.net/dfd.html)
+* [UML Data Modeling Video](https://www.youtube.com/watch?v=OOpiaIcyz30)
+* [The Basics of Good Database Design](http://goo.gl/w2e9D)
+* [Creating Sturdy Databases in SQL](http://www.dummies.com/how-to/content/creating-sturdy-databases-in-sql.html)
+* [10 Steps to SQL Success](http://www.dummies.com/how-to/content/10-steps-to-sql-success.html)
+* [Graphical Data Flow Programming in LabVIEW Video](https://www.youtube.com/watch?v=PqxStfwjQoQ&list=PLB968815D7BB78F9C)
 
 
 Questions and Comments 
@@ -287,4 +303,9 @@ Questions and Comments
 Some Parting Words
 ========================================================
 
+> Essentially, all models are wrong, but some are useful.
+
+--*<a href="http://en.wikipedia.org/wiki/George_E._P._Box">George E. P. Box</a>*
+
+Source: *Empirical Model-Building and Response Surfaces* (1987), p. 424. (Found on <a href="http://en.wikiquote.org/wiki/George_E._P._Box">Wikiquote</a>.)
 
