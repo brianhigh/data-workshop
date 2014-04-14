@@ -214,13 +214,21 @@ Hands-on Group Exercise
 
 Working as a group, with a pen or pencil and paper, make some systems analysis diagrams. Sticky notes, a whiteboard, etc. may be helpful when brainstorming and designing the diagrams.
 
-Choice A: Transform your use case diagram(s) into a context diagram and level 1 DFD for your project, especially if there are many data processing steps or data sources. 
+<p style="width: 650px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Group_visioning_session_-_group_one_-_Stierch.jpg/640px-Group_visioning_session_-_group_one_-_Stierch.jpg" alt="group" style="padding-bottom:0.5em;" />Photo: <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Group_visioning_session_-_group_one_-_Stierch.jpg/640px-Group_visioning_session_-_group_one_-_Stierch.jpg">SarahStierch / Wikimedia</a></p>
+
+
+Hands-on Group Exercise: Variations
+========================================================
+
+Data Flow Diagrams
+
+Transform your use case diagram(s) into a context diagram and level 1 DFD, especially if there are many data processing steps or data sources. Diagram further levels (time permitting).
 
 ---
 
-<p style="width: 400px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Group_visioning_session_-_group_one_-_Stierch.jpg/640px-Group_visioning_session_-_group_one_-_Stierch.jpg" alt="group" style="padding-bottom:0.5em;" />Photo: <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Group_visioning_session_-_group_one_-_Stierch.jpg/640px-Group_visioning_session_-_group_one_-_Stierch.jpg">SarahStierch / Wikimedia</a></p>
+Flow Charts and Swim Lanes
 
-Choice B: Alternatively, if there are complex decisions ("extends") or multiple entities performing various actions, then make a flow chart or swim lane diagram from your use case diagram(s). 
+Alternatively, if there are complex decisions, branching, or multiple entities performing various actions, then make a flow chart or swim lane diagram from your use case diagram(s). 
 
 Discussion
 ========================================================
@@ -282,6 +290,7 @@ Action Items (videos, readings,  and tasks)
 See Also
 ========================================================
 
+* [Rapid application development](http://en.wikipedia.org/wiki/Rapid_application_development)
 * [Creately - Ultimate Flowchart Guide](http://creately.com/blog/diagrams/flowchart-guide-flowchart-tutorial/)
 * [DFD over Flowcharts PDF](http://ratandon.mysite.syr.edu/cis453/notes/DFD_over_Flowcharts.pdf)
 * [DFD Slideshow](http://www.slideshare.net/NidhiSharma78/data-flow-diagram-17909732)
