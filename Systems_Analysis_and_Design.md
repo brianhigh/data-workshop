@@ -17,6 +17,18 @@ Session 3: Systems Analysis and Design
 
 ![systems analysis and design](images/analysis_and_design.png)
 
+
+========================================================
+
+<p style="width: 900px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://mariovalle.name/sdm/img/Slide6.png" alt="wpublish and forget model" style="padding-bottom:0.5em;" />Image: <a href="http://mariovalle.name/sdm/scientific-data-management.html">Mario Valle</a>. Used with permission.</p>
+
+
+========================================================
+
+<p style="width: 900px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://mariovalle.name/sdm/img/Slide7.png" alt="wpublish and forget model" style="padding-bottom:0.5em;" />Image: <a href="http://mariovalle.name/sdm/scientific-data-management.html">Mario Valle</a>. Used with permission.</p>
+
+
+
 Systems Development Life Cycle (SDLC)
 ==================================
 
@@ -277,7 +289,7 @@ Action Items (videos, readings,  and tasks)
       <td width="128" valign="middle"><img width="128" height="128" alt="tasks" src="images/tasks.jpg"></td>
       <td valign="middle">
          <ul>
-            <li> Create enough diagrams to describe your data system "unambiguously"
+            <li> Create enough diagrams to describe your system "unambiguously"
             <li> Post your system documents and diagrams in your project wiki
             <li> Organize your material into a "Requirements Document" wiki page
             <li> Refer to the example in the "Data Management" project wiki
@@ -314,5 +326,10 @@ Some Parting Words
 
 --*<a href="http://en.wikipedia.org/wiki/George_E._P._Box">George E. P. Box</a>*
 
-Source: *Empirical Model-Building and Response Surfaces* (1987), p. 424. (Found on <a href="http://en.wikiquote.org/wiki/George_E._P._Box">Wikiquote</a>.)
 
+Source: *Empirical Model-Building and Response Surfaces* (1987), p. 424. (<a href="http://en.wikiquote.org/wiki/George_E._P._Box">Wikiquote</a>.)
+
+
+========================================================
+
+<p style="width: 744px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flammarion_Woodcut_1888_Color_2.jpg/744px-Flammarion_Woodcut_1888_Color_2.jpg" alt="flammarion" style="padding-bottom:0.5em;" />Source: <a href="http://commons.wikimedia.org/wiki/File:Flammarion_Woodcut_1888_Color_2.jpg">Camille Flammarion / Wikimedia</p>
