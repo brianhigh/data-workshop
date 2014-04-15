@@ -292,14 +292,12 @@ See Also
 
 * [Rapid application development](http://en.wikipedia.org/wiki/Rapid_application_development)
 * [Creately - Ultimate Flowchart Guide](http://creately.com/blog/diagrams/flowchart-guide-flowchart-tutorial/)
+* [Traditional vs Modern Flowcharts](http://www.smartdraw.com/articles/flowchart/traditional-vs-modern-flowcharts.htm)
 * [DFD over Flowcharts PDF](http://ratandon.mysite.syr.edu/cis453/notes/DFD_over_Flowcharts.pdf)
 * [DFD Slideshow](http://www.slideshare.net/NidhiSharma78/data-flow-diagram-17909732)
 * [Creately DFD](http://creately.com/diagram-community/popular/t/data-flow)
 * [DFDs - and follow link to "Article"](http://indianatech2.net/dfd.html)
 * [UML Data Modeling Video](https://www.youtube.com/watch?v=OOpiaIcyz30)
-* [The Basics of Good Database Design](http://goo.gl/w2e9D)
-* [Creating Sturdy Databases in SQL](http://www.dummies.com/how-to/content/creating-sturdy-databases-in-sql.html)
-* [10 Steps to SQL Success](http://www.dummies.com/how-to/content/10-steps-to-sql-success.html)
 * [Graphical Data Flow Programming in LabVIEW Video](https://www.youtube.com/watch?v=PqxStfwjQoQ&list=PLB968815D7BB78F9C)
 
 
