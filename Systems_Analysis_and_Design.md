@@ -278,9 +278,9 @@ Action Items (videos, readings,  and tasks)
       <td valign="middle">
          <ul>
             <li> Create enough diagrams to describe your data system "unambiguously"
-            <li> Post your system documents and diagrams in your Redmine wiki
-            <li> Organize your Redmine material into a "Requirements Document"
-            <li> Refer to the example in the "Data Management" Redmine project wiki
+            <li> Post your system documents and diagrams in your project wiki
+            <li> Organize your material into a "Requirements Document" wiki page
+            <li> Refer to the example in the "Data Management" project wiki
          </ul>
       </td>
    </tr>
