@@ -37,23 +37,21 @@ One of several approaches to systems development is the [SDLC](http://en.wikiped
 <p style="width: 500px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Waterfall_model.svg/500px-Waterfall_model.svg.png" alt="waterfall model" style="padding-bottom:0.5em;" />Image: <a href="http://commons.wikimedia.org/wiki/File:Waterfall_model.svg">Peter Kemp / Paul Smith / Wikimedia</a></p>
 
 
-Phases of the SDLC
+SDLC Activities and Artifacts
 ==================================
 
 
-| Phase | Purpose |
-| ----- | ------- |
-Preliminary analysis | Define purpose, scope, options, costs |
-Systems analysis | Map processes, define requirements |
-Systems design | Precise description of modular system |
-Development | Build the working system from the design |
-Integration and testing | Make sure system works |
-Acceptance, installation, deployment | Put system to real use |
-Maintenance | Keep system running properly |
-Evaluation | Make sure system is still serving its purpose |
-Disposal | Remove system when no longer needed |
-
-(Source: [Wikipedia](http://en.wikipedia.org/wiki/Systems_development_life-cycle))
+| Phase | Activities | Artifacts |
+| ----- | ---------- | ----- |
+| Prelim. Analysis | Define purpose, scope, options, costs | Feas. Study, Proj. Plan |
+| Systems Analysis | Process Modeling, Requirements Anal. | Diagrams, Requirements |
+| Systems Design | Interface & Data Modeling | Diagrams, DD, Schema |
+| Development | Acquisition and/or Coding, Integration | Working System |
+| Testing | Testing, Bug Reports & Fixes | Validated System |
+| Deployment | Installation, Training, Launch | Production System |
+| Maintenance | Backups, Upgrades | Maintained System |
+| Evaluation | System Effectiveness and Cost Checks | Evaluation Report |
+| Disposal | System Removal, Archival, and Surplus | Archived Artifacts |
 
 
 An Example Research Project
@@ -65,7 +63,7 @@ Let's imagine that we are to conduct a research study like this:
 * Some of those surfaces will be on human subjects.
 * We will analyze the bacteria samples in the lab.
 * Test results will be entered into a data system.
-* We will perform statistical analyses on the test results. 
+* We will perform statistical analyses on the test results.
 
 Goals List
 ===================================
@@ -280,7 +278,7 @@ Action Items (videos, readings,  and tasks)
                <ul>
             <li><A href="http://practicalcomputing.org/about">PCfB</a> textbook: Chapter5. Handling Text in the Shell
             <li>Skim: Wikipedia: <a href="http://en.wikipedia.org/wiki/Requirements_analysis">Req. anal.</a>, <a href="http://en.wikipedia.org/wiki/Database_design"</a>DB design, <a href="http://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model">E-R model</a>, and <a href="http://en.wikipedia.org/wiki/Database_normalization">normalization</a>
-            <li>Explore: <A href="http://ciso.uw.edu/privacy/">UW Privacy Program</a>, <a href="http://yourdon.com/strucanalysis/wiki/index.php/Introduction">Structured Analysis Wiki</a>
+            <li>Explore: <A href="http://ciso.uw.edu/privacy/">UW Privacy</a>, <a href="http://yourdon.com/strucanalysis/wiki/index.php/Introduction">SA Wiki</a>, <a href="http://en.wikibooks.org/wiki/Business_Analysis_Guidebook">BA Guidebook</a>
             <li>Optional- Skim: <a href="http://www.amazon.com/dp/0123747309">RDDaI3CE</a> textbook: Chapters 3-4
          </ul>
       </td>
