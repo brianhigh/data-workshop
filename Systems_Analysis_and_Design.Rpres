@@ -30,17 +30,32 @@ SDLC Activities and Artifacts
 ==================================
 
 
-| Phase | Activities | Artifacts |
+| Phase | Activities | Artifacts^1 |
 | ----- | ---------- | ----- |
-| Prelim. Analysis | Define purpose, scope, options, costs | Go/No-Go Decision, Plan |
-| Systems Analysis | Process Modeling, Requirements Anal. | Diagrams, Requirements |
-| Systems Design | Interface & Data Modeling | Diagrams, DD, Schema |
+| Planning^2 | Define purpose, scope, options, costs^3 | Go/No-Go Decision, Plan |
+| Systems Analysis | Process Modeling, Requirements Anal. | Diagrams^4, Requirements |
+| Systems Design | Interface & Data Modeling | Diagrams^5, DD^6, Schema |
 | Development | Acquisition and/or Coding, Integration | Working System |
 | Testing | Testing, Bug Reports & Fixes | Validated System |
 | Deployment | Installation, Training, Launch | Production System |
 | Maintenance | Backups, Upgrades | Maintained System |
-| Evaluation | System Effectiveness and Cost Checks | Evaluation Report |
+| Evaluation | Effectiveness^7 and Cost Checks | Evaluation Report |
 | Disposal | System Removal, Archival, and Surplus | Archived Artifacts |
+
+(See the next slide for notes.)
+
+SDLC Activities and Artifacts
+==================================
+
+Notes (referring to previous slide): 
+
+1. There are [dozens](http://www.uspto.gov/about/vendor_info/current_acquisitions/sdi_ng/sdlc_activity_artifact_checklist.xls) of potential [artifacts](http://en.wikipedia.org/wiki/Artifact_%28software_development%29) from each phase.
+2. The [planning phase](http://en.wikipedia.org/wiki/Systems_development_life_cycle#System_investigation) may also be called the preliminary investigation, system investigation, feasibility study, or project initiation phase, among other names.
+3. Determination of options and costs (in the [planning phase](http://en.wikipedia.org/wiki/Systems_development_life_cycle#System_investigation)) is often referred to, specifically, as a [feasibility study](http://www.extension.iastate.edu/agdm/wholefarm/html/c5-65.html).
+4. [Systems analysis](http://en.wikipedia.org/wiki/Systems_analysis) may produce [flow charts](http://en.wikipedia.org/wiki/Flow_chart), [swim lanes](http://en.wikipedia.org/wiki/Swim_lane), [data flow diagrams](http://en.wikipedia.org/wiki/Data_flow_diagram) (DFD), and [UML](http://en.wikipedia.org/wiki/Unified_Modeling_Language) diagrams.
+5. [Systems design](http://en.wikipedia.org/wiki/Systems_design) may produce [Entity-relationship](http://en.wikipedia.org/wiki/Entity_relationship) (ER) diagrams and UML diagrams.
+6. As a systems design artifact, DD represents a [Data Dictionary](http://en.wikipedia.org/wiki/Data_dictionary) document.
+7. The [Evaluation phase](http://en.wikipedia.org/wiki/Systems_Development_Life_Cycle#Evaluation) will have numerous measures of [effectiveness](http://ipmexam.wikispaces.com/Systems+Development+Life+Cycle+-+Evaluation+Phase).
 
 
 An Example Research Project
