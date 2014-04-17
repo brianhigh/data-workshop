@@ -18,17 +18,6 @@ Session 3: Systems Analysis and Design
 ![systems analysis and design](images/analysis_and_design.png)
 
 
-========================================================
-
-<p style="width: 900px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://mariovalle.name/sdm/img/Slide6.png" alt="wpublish and forget model" style="padding-bottom:0.5em;" />Image: <a href="http://mariovalle.name/sdm/scientific-data-management.html">Mario Valle</a>. Used with permission.</p>
-
-
-========================================================
-
-<p style="width: 900px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://mariovalle.name/sdm/img/Slide7.png" alt="wpublish and forget model" style="padding-bottom:0.5em;" />Image: <a href="http://mariovalle.name/sdm/scientific-data-management.html">Mario Valle</a>. Used with permission.</p>
-
-
-
 Systems Development Life Cycle (SDLC)
 ==================================
 
@@ -43,7 +32,7 @@ SDLC Activities and Artifacts
 
 | Phase | Activities | Artifacts |
 | ----- | ---------- | ----- |
-| Prelim. Analysis | Define purpose, scope, options, costs | Feas. Study, Proj. Plan |
+| Prelim. Analysis | Define purpose, scope, options, costs | Go/No-Go Decision, Plan |
 | Systems Analysis | Process Modeling, Requirements Anal. | Diagrams, Requirements |
 | Systems Design | Interface & Data Modeling | Diagrams, DD, Schema |
 | Development | Acquisition and/or Coding, Integration | Working System |
