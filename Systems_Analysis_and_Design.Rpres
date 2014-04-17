@@ -294,7 +294,7 @@ Action Items (videos, readings,  and tasks)
             <li> Create enough diagrams to describe your system "unambiguously"
             <li> Post your system documents and diagrams in your project wiki
             <li> Organize your material into a "Requirements Document" wiki page
-            <li> Refer to the example in the "Data Management" project wiki
+            <li> Refer to the <a href="https://github.com/brianhigh/data-workshop/wiki/Example-Requirements-Document">example</a> in the "Data Management" project wiki
          </ul>
       </td>
    </tr>
