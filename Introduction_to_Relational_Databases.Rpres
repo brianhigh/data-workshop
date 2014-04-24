@@ -29,7 +29,7 @@ One of several approaches to systems development is the [SDLC](http://en.wikiped
 <p style="width: 900px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://mariovalle.name/sdm/img/Slide7.png" alt="publish and publish and publish model" style="padding-bottom:0.5em;" />Image: <a href="http://mariovalle.name/sdm/scientific-data-management.html">Mario Valle</a>. Used with permission.</p>
 
 
-Session 3: Introduction to Relational Databases
+Session 4: Introduction to Relational Databases
 ========================================================
 
 <p style="width: 500px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Erd-entity-relationship-example1.svg/500px-Erd-entity-relationship-example1.svg.png" alt="ERD example" style="padding-bottom:0.5em;" />Image: <a href="http://en.wikipedia.org/wiki/File:Erd-entity-relationship-example1.svg">Wikimedia</a></p>
