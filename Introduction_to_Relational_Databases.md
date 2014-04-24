@@ -171,21 +171,6 @@ Example Conceptual ERD Simplified
 
 ![example conceptual ERD simplified](images/Lab_Data_System_Conceptual_Model_ERD_v2.png)
 
-Hands-on Group Exercise
-========================================================
-
-Working as a group create a Conceptual Model ERD for your project.
-
-<p style="width: 650px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Group_visioning_session_-_group_one_-_Stierch.jpg/640px-Group_visioning_session_-_group_one_-_Stierch.jpg" alt="group" style="padding-bottom:0.5em;" />Photo: <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Group_visioning_session_-_group_one_-_Stierch.jpg/640px-Group_visioning_session_-_group_one_-_Stierch.jpg">SarahStierch / Wikimedia</a></p>
-
-
-Discussion
-========================================================
-
-Explain your Conceptual Model ERD.
-
-<p style="width: 275px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/e/eb/User_journey_discussion.png" alt="discussion" style="padding-bottom:0.5em;" />Graphic: <a href="http://upload.wikimedia.org/wikipedia/commons/e/eb/User_journey_discussion.png">Jagbirlehl / Wikimedia</a></p>
-
 Logical Data Model ERD
 ========================================================
 
@@ -281,6 +266,21 @@ Example Logical ERD
 ========================================================
 
 ![example logical ERD](images/exposure_lab_eer6.png)
+
+Hands-on Group Exercise
+========================================================
+
+Working as a group create Conceptual and Logical Model ERDs for this use case: Subject takes survey. (Keep it simple.)
+
+![Subject takes survey](images/subject_takes_survey.png)
+
+
+Discussion
+========================================================
+
+Explain your ERDs.
+
+<p style="width: 275px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/e/eb/User_journey_discussion.png" alt="discussion" style="padding-bottom:0.5em;" />Graphic: <a href="http://upload.wikimedia.org/wikipedia/commons/e/eb/User_journey_discussion.png">Jagbirlehl / Wikimedia</a></p>
 
 
 Confusing Relational Database Terms
