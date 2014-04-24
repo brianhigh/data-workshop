@@ -397,6 +397,7 @@ See Also
 * [C2.com Database Best Practices](http://c2.com/cgi/wiki?DatabaseBestPractices)
 * [Normal Forms, without the logic fetish](http://en.wikibooks.org/wiki/Relational_Database_Design/Normalization#Normal_Forms.2C_without_the_logic_fetish)
 * [A Simple Guide to Five Normal Forms](http://www.bkent.net/Doc/simple5.htm)
+* [The Normal Forms: In a Nutshell](http://rogersaccessblog.blogspot.com/2009/03/normal-forms-in-nutshell.html) (lots of related guides here)
 * [Enhanced entity–relationship (EER) model](http://en.wikipedia.org/wiki/Enhanced_entity%E2%80%93relationship_model)
 * [MySQL Workbench EER Diagram](https://dev.mysql.com/doc/workbench/en/wb-creating-eer-diagram.html)
 * [Gliffy](http://www.gliffy.com/)
