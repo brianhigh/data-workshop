@@ -240,6 +240,13 @@ There are <a href="http://en.wikipedia.org/wiki/Database_normalization#Normal_fo
 
 Basically, the other forms are about dividing a table into smaller tables to avoid anomalies and reduce duplication.
 
+The First Three Forms: 1NF-3NF
+========================================================
+
+The first three forms will usually cover most real-world situations adequately.
+
+<p style="width: 640px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/75/NormalFormDiagram.png/640px-NormalFormDiagram.png" alt="normal forms" style="padding-bottom:0.5em;" />Graphic: <a href="http://commons.wikimedia.org/wiki/File:NormalFormDiagram.png">Wikimedia</a></p>
+
 
 Basic Normalization Tips
 ========================================================
