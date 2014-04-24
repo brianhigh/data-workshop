@@ -143,9 +143,9 @@ May also show:
 
 ![artist performs song conceptual erd](http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Erd-entity-relationship-example1.svg/500px-Erd-entity-relationship-example1.svg.png)
 
-Uses:
+Keep in mind:
 
-* Common language of the business or field
+* Uses common language of the business or field
 * For non-technical or higher-level stakeholders
 
 
@@ -224,7 +224,7 @@ Normalization in a Nutshell
 
 -- <a href="http://en.wikipedia.org/wiki/Third_normal_form#cite_note-DateIntro-9">Chris Date</a>, *An Introduction to Database Systems*
 
-1. Attributes contain single values; no attribute groups
+1. Attributes contain single values -- no attribute groups
 2. Non-primary-key attributes depend on entire primary key
 3. Non-primary-key attributes depend only on primary key
 
