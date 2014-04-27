@@ -87,17 +87,11 @@ To design a data system, we need to identify requirements and map out interactio
 Conceptual Models and Logical Models
 ========================================================
 
-Conceptual Model
-----------------
-
-For non-technical or higher-level stakeholders
+*Conceptual Model*: For non-technical or higher-level stakeholders
 
 ![artist performs song conceptual erd](http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Erd-entity-relationship-example1.svg/500px-Erd-entity-relationship-example1.svg.png)
 
-Logical Model
--------------
-
-For technical stakeholders involved in design or implementation
+*Logical Model*: For technical stakeholders involved in design or implementation
 
 ![artist performs song logical erd](images/artist_performs_song.png)
 
@@ -183,6 +177,8 @@ Shows:
 * <a href="http://en.wikipedia.org/wiki/Attribute_%28computing%29">Attributes</a>
 * <a href="http://en.wikipedia.org/wiki/Data_domain">Attribute Types</a>
 * <a href="http://en.wikipedia.org/wiki/Primary_keys">Keys</a>
+
+---
 
 ![artist performs song logical erd](images/artist_performs_song.png)
 
