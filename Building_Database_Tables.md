@@ -65,7 +65,7 @@ Logical Data Model
 
 Working together, we will create this EER diagram in MySQL Workbench.
 
-![lab testing eer diagraml](images/Lab_Testing_EER_v2.png)
+![lab testing eer diagram](images/Lab_Testing_EER.png)
 
 
 Discussion
@@ -73,7 +73,23 @@ Discussion
 
 Explain our EER diagram.
 
-<p style="width: 275px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/e/eb/User_journey_discussion.png" alt="discussion" style="padding-bottom:0.5em;" />Graphic: <a href="http://upload.wikimedia.org/wikipedia/commons/e/eb/User_journey_discussion.png">Jagbirlehl / Wikimedia</a></p>
+<p style="width: 640px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://farm7.static.flickr.com/6225/6261666243_98a0f92b1f_z.jpg" alt="at at dog costume creation" style="padding-bottom:0.5em;" />Photo: <a href="http://starwarsblog.starwars.com/2011/10/19/meet-bones-the-at-at-dog/">John Nolan / Katie Mello / Star Wars Blog</a></p>
+
+
+Generating Database Tables
+========================================================
+
+Using the "Forward Engineer" feature, we can save a schema file and create tables. The tables can be explored in "SQL Editor".
+
+![lab testing eer tables](images/lab_data_system_high_tables_v1.png)
+
+
+Logical Data Model Modified
+========================================================
+
+In order to use these tables for generating a website with a framework (like CakePHP), we will need to make our table names plural to conform with the framework's conventions.
+
+![lab testing eer diagram](images/Lab_Testing_EER_v2.png)
 
 
 Logical Data Model Expanded
@@ -166,9 +182,5 @@ Questions and Comments
 
 <p style="width: 380px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Happy_Question.svg/380px-Happy_Question.svg.png" alt="question" style="padding-bottom:0.5em;" />Image: <a href=http://commons.wikimedia.org/wiki/File:Happy_Question.svg">© Nevit Dilmen</a> / Wikimedia</p>
 
-
-========================================================
-
-<p style="width: 640px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://farm7.static.flickr.com/6225/6261666243_98a0f92b1f_z.jpg" alt="at at dog costume creation" style="padding-bottom:0.5em;" />Photo: <a href="http://starwarsblog.starwars.com/2011/10/19/meet-bones-the-at-at-dog/">John Nolan / Katie Mello / Star Wars Blog</a></p>
 
 
