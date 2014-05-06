@@ -15,13 +15,23 @@ For Scientific Research
 Session 5: Building Database Tables
 ========================================================
 
-Today we will use an example to review data models and create a database using MySQL Workbench.
+Today we will use an example to review data models and create a database design using MySQL Workbench.
+
+![mysql wb splash](images/mysql_wb_splash.png)
+
+
+Start MySQL Workbench
+========================================================
 
 Please open up MySQL Workbench so you can follow along.
 
-As we design the database on the screen, you should also create the same database design in MySQL Workbench on your own computer.
+![opening mysql wb from xfce](images/mysql_wb_menu.png)
+
+---
 
 We will use the design to automatically create the database tables.
+
+As we design the database on the screen, you should also create the same database design in MySQL Workbench on your own computer.
 
 
 Example: Sample Testing
@@ -102,8 +112,9 @@ By adding more tables, we can track additional entities:
 * Clients
 * Sample Disposal
 * Instruments
-* Instrument Detection Limits (IDLs)
-* Method Detection Limits (MDLs)
+* Analytes
+
+And even so, we still are not tracking containers or "splits".
 
 ---
 
