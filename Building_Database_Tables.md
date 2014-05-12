@@ -193,5 +193,13 @@ Questions and Comments
 
 <p style="width: 380px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Happy_Question.svg/380px-Happy_Question.svg.png" alt="question" style="padding-bottom:0.5em;" />Image: <a href=http://commons.wikimedia.org/wiki/File:Happy_Question.svg">© Nevit Dilmen</a> / Wikimedia</p>
 
+Some Parting Words
+========================================================
+
+> If you welcome chaos, chaos is gonna organize itself for you, in front of your own eyes.
+
+--<a href="http://www.dinnerpartydownload.org/philippe-petit/">Philippe Petit on Creative Chaos</a>
+
+<p style="width: 640px; float: right; clear: right; margin-bottom: 5px; margin-left: 14px; text-align: right; font-weight: bold; font-size: 12pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Tightrope_walking.jpg/640px-Tightrope_walking.jpg" alt="tightrope walker" style="padding-bottom:0.5em;" />Image: <a href="http://en.wikipedia.org/wiki/File:Tightrope_walking.jpg">Wiros / Wikimedia</a></p>
 
 
