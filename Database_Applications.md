@@ -63,12 +63,13 @@ Examples include:
 Database Connections
 ========================================================
 
-There are four main ways to connect to a database:
+There are three main ways to connect to a database:
 
 * File-based access (SQLite, MDB, CSV)
-* "Native" connection to service on same host
-* "Native" connection to service over network
+* Connection to SQL service using "native" client
 * [ODBC](http://en.wikipedia.org/wiki/Open_Database_Connectivity)  (Open Database Connectivity)
+  - Using a [DSN](http://en.wikipedia.org/wiki/Data_source_name) (Data Source Name)
+  - Using a [connection string](http://en.wikipedia.org/wiki/Connection_string) ("DSN-less")
 
 ODBC (Open Database Connectivity)
 ========================================================
@@ -84,6 +85,24 @@ ODBC (Open Database Connectivity)
 ---
 
 ![ms dsn](images/msdsn.png)
+
+
+Hands-on Group Exercise
+========================================================
+
+Create a DSN for accessing your SQL database from a Windows PC.
+
+For our exercise, we will connect from the student server.
+
+Create a "user DSN" using the MySQL Unicode Driver.
+
+Go to "Administrative Tools" -> Data Sources (ODBC).
+
+---
+
+![dsn](images/dsn.png)
+
+Under the "User DSN" tab click "Add".
 
 
 Using MS-Access with a SQL Database
@@ -103,10 +122,14 @@ From MS-Access, you can link to tables and views from a SQL server.
 Using SQL in R
 ========================================================
 
+We can use the same DSN to connect with R.
+
 ![R Windows](images/rwin32.png)
 
 Using SQL in Stata
 ========================================================
+
+And we can use the same DSN to connect with Stata.
 
 ![Stata Windows](images/stata_mysql.png)
 
@@ -114,10 +137,15 @@ Using SQL in Stata
 Using SQL in MySQL Workbench
 ========================================================
 
+MySQL WB can connect to the server without needing a DSN.
+
 ![MySQL WB Example](images/mysql_wb_sql_example.png)
+
 
 SQLite Example: Firefox History
 ========================================================
+
+File-based access does not need a DSN or connection string.
 
 ![firefox history query](images/sqlite_example.png)
 
@@ -136,7 +164,7 @@ Some example queries using SELECT:
 * SELECT * FROM table1 WHERE column1 = "Joe";
 * SELECT * FROM table1 ORDER BY column2, column1 ASC;
 
-
+You can combine WHERE, ORDER BY, and other clauses.
 
 Hands-on Group Exercise
 ========================================================
@@ -169,7 +197,8 @@ In the Coming Sessions...
 ========================================================
 
 * Web Applications and Frameworks
-* Embedded SQL
+* Importing and Exporting SQL Tables
+* Using SQL from Another Language
 * Project Management and Version Control
 
 Action Items (videos, readings,  and tasks)
@@ -194,7 +223,7 @@ Action Items (videos, readings,  and tasks)
       <td valign="middle">
          <ul>
             <li><A href="http://practicalcomputing.org/about">PCfB</a> textbook: Chapter 16: Advanced Shell and Pipelines
-            <li>Skim: <a href="http://seattle.bibliocommons.com/item/show/2897906030_sams_teach_yourself_sql_in_10_minutes,_fourth_edition">SAMS Teach Yourself SQL on 10 Minutes</a>: Ch. 5-8
+            <li>Skim: <a href="http://seattle.bibliocommons.com/item/show/2897906030_sams_teach_yourself_sql_in_10_minutes,_fourth_edition">SAMS Teach Yourself SQL on 10 Minutes</a>: Ch. 5-8, 15-18
             <li>Optional- Skim: <a href="http://www.amazon.com/dp/0123747309">RDDaI3CE</a> textbook: Chapter 9
             <li>Optional- Skim: <a href="http://www.amazon.com/dp/0123756979">SQLCE3</a> textbook: Chapters 3-4
          </ul>
