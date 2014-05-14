@@ -211,9 +211,9 @@ Action Items (videos, readings,  and tasks)
       <td valign="middle">
          <ul>
             <li><a href="http://www.youtube.com/watch?v=tnhJa_zYNVY">MySQL WB Imports</a>
+            <li><a href="https://www.youtube.com/watch?v=K3GZidOwGmM">How to Set ODBC MySQL Driver</a>
             <li><a href="https://www.youtube.com/watch?v=F06hvR6ksh4">How to Open MySQL Database With MS Access</a>
-            <li><a href="https://www.youtube.com/watch?v=Ihx_-cuWL8E">Accessing MySQL from Microsoft Access using ODBC</a>
-            <li><a href="https://www.youtube.com/watch?v=SmDZaH855qE">SQL Joins</a>
+            <li><a href="https://www.youtube.com/playlist?list=PLS1QulWo1RIahlYDqHWZb81qsKgEvPiHn">MYSQL Tutorial for beginner (playlist)</a>
          </ul>
       </td>
    </tr>

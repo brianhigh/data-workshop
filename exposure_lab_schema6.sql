@@ -2,12 +2,15 @@ SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL';
 
+DROP SCHEMA IF EXISTS `expolab` ;
 CREATE SCHEMA IF NOT EXISTS `expolab` DEFAULT CHARACTER SET utf8 ;
 USE `expolab` ;
 
 -- -----------------------------------------------------
 -- Table `expolab`.`buildings`
 -- -----------------------------------------------------
+DROP TABLE IF EXISTS `expolab`.`buildings` ;
+
 CREATE  TABLE IF NOT EXISTS `expolab`.`buildings` (
   `id` INT NOT NULL AUTO_INCREMENT ,
   `name` VARCHAR(45) NULL ,
@@ -24,6 +27,8 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `expolab`.`positions`
 -- -----------------------------------------------------
+DROP TABLE IF EXISTS `expolab`.`positions` ;
+
 CREATE  TABLE IF NOT EXISTS `expolab`.`positions` (
   `id` INT NOT NULL AUTO_INCREMENT ,
   `name` VARCHAR(45) NULL ,
@@ -34,6 +39,8 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `expolab`.`subjects`
 -- -----------------------------------------------------
+DROP TABLE IF EXISTS `expolab`.`subjects` ;
+
 CREATE  TABLE IF NOT EXISTS `expolab`.`subjects` (
   `id` INT NOT NULL AUTO_INCREMENT ,
   `fname` VARCHAR(45) NOT NULL ,
@@ -54,6 +61,8 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `expolab`.`body_locations`
 -- -----------------------------------------------------
+DROP TABLE IF EXISTS `expolab`.`body_locations` ;
+
 CREATE  TABLE IF NOT EXISTS `expolab`.`body_locations` (
   `id` INT NOT NULL AUTO_INCREMENT ,
   `name` VARCHAR(45) NULL ,
@@ -64,6 +73,8 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `expolab`.`subject_locations`
 -- -----------------------------------------------------
+DROP TABLE IF EXISTS `expolab`.`subject_locations` ;
+
 CREATE  TABLE IF NOT EXISTS `expolab`.`subject_locations` (
   `id` INT NOT NULL ,
   `subject_id` INT NOT NULL ,
@@ -87,6 +98,8 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `expolab`.`geo_locations`
 -- -----------------------------------------------------
+DROP TABLE IF EXISTS `expolab`.`geo_locations` ;
+
 CREATE  TABLE IF NOT EXISTS `expolab`.`geo_locations` (
   `id` INT NOT NULL AUTO_INCREMENT ,
   `desc` VARCHAR(45) NULL ,
@@ -115,6 +128,8 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `expolab`.`sample_types`
 -- -----------------------------------------------------
+DROP TABLE IF EXISTS `expolab`.`sample_types` ;
+
 CREATE  TABLE IF NOT EXISTS `expolab`.`sample_types` (
   `id` INT NOT NULL AUTO_INCREMENT ,
   `name` VARCHAR(45) NOT NULL ,
@@ -125,6 +140,8 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `expolab`.`technicians`
 -- -----------------------------------------------------
+DROP TABLE IF EXISTS `expolab`.`technicians` ;
+
 CREATE  TABLE IF NOT EXISTS `expolab`.`technicians` (
   `id` INT NOT NULL AUTO_INCREMENT ,
   `fname` VARCHAR(45) NOT NULL ,
@@ -136,6 +153,8 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `expolab`.`samples`
 -- -----------------------------------------------------
+DROP TABLE IF EXISTS `expolab`.`samples` ;
+
 CREATE  TABLE IF NOT EXISTS `expolab`.`samples` (
   `id` INT NOT NULL AUTO_INCREMENT ,
   `timestamp` DATETIME NOT NULL ,
@@ -171,6 +190,8 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `expolab`.`tests`
 -- -----------------------------------------------------
+DROP TABLE IF EXISTS `expolab`.`tests` ;
+
 CREATE  TABLE IF NOT EXISTS `expolab`.`tests` (
   `id` INT NOT NULL AUTO_INCREMENT ,
   `name` VARCHAR(45) NOT NULL ,
@@ -181,6 +202,8 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `expolab`.`split_types`
 -- -----------------------------------------------------
+DROP TABLE IF EXISTS `expolab`.`split_types` ;
+
 CREATE  TABLE IF NOT EXISTS `expolab`.`split_types` (
   `id` INT NOT NULL AUTO_INCREMENT ,
   `name` VARCHAR(45) NOT NULL ,
@@ -191,6 +214,8 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `expolab`.`sample_splits`
 -- -----------------------------------------------------
+DROP TABLE IF EXISTS `expolab`.`sample_splits` ;
+
 CREATE  TABLE IF NOT EXISTS `expolab`.`sample_splits` (
   `id` INT NOT NULL AUTO_INCREMENT ,
   `sample_id` INT NOT NULL ,
@@ -215,6 +240,8 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `expolab`.`results`
 -- -----------------------------------------------------
+DROP TABLE IF EXISTS `expolab`.`results` ;
+
 CREATE  TABLE IF NOT EXISTS `expolab`.`results` (
   `id` INT NOT NULL AUTO_INCREMENT ,
   `test_id` INT NOT NULL ,
