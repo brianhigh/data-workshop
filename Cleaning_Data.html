@@ -915,7 +915,7 @@ and clean the external data.</p>
 <li>Reformat the &ldquo;collecttime&rdquo; field
 
 <ol>
-<li>Click &ldquo;E&rdquo; column header, the &ldquo;collecttime&rdquo; field</li>
+<li>Click &ldquo;F&rdquo; column header, the &ldquo;collecttime&rdquo; field</li>
 <li>Right click, choose &ldquo;Format Cells&rdquo;</li>
 <li>Choose &ldquo;Custom&rdquo;, enter this Type: hh:mm:ss</li>
 <li>Press OK</li>
@@ -936,6 +936,18 @@ and clean the external data.</p>
 <li>Choose &ldquo;Custom&rdquo;, enter this Type: yyyy-mm-dd hh:mm:ss</li>
 <li>Press OK</li>
 </ol>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Add Empty "id" in Excel</h3>
+<div class="slideContent" >
+<p>Before saving the file as text, we will add an empty &ldquo;id&rdquo; column to the spreadsheet.</p>
+
+<p>Insert the new column as a new first column (A) of the spreadsheet. Give it a column heading of &ldquo;id&rdquo;.</p>
+
+<p>This will make it easier to import the data into our &ldquo;bucket&rdquo; table, as we will not need to specify our column names at that stage.</p>
 
 </div>
 
@@ -1041,19 +1053,19 @@ and clean the external data.</p>
 <li>Our &ldquo;Search for&rdquo; expression: </li>
 </ul>
 
-<p><code>^(([^\t]*\t){14})([^\t\\]+)\\?([^\t\\]*)\t(.*$)$</code></p>
+<p><code>^(([^\t]*\t){15})([^\t\\]+)\\?([^\t\\]*)\t(.*$)$</code></p>
 
 <ul>
 <li>Our &ldquo;Replace with&rdquo; expression:</li>
 </ul>
 
-<p><code>$1\t$3\t$4\t$5</code></p>
+<p><code>$1$3\t$4\t$5</code></p>
 
 <ul>
 <li>Run this one-line command at the DOS (CMD) prompt:</li>
 </ul>
 
-<p><code>perl -wln -e &quot;s/^(([^\t]*\t){14})([^\t\\]+)\\?([^\t\\]*)\t(.*$)$/$1\t$3\t$4\t$5/g and print&quot; input_file.txt &gt; output_file.txt</code></p>
+<p><code>perl -wln -e &quot;s/^(([^\t]*\t){15})([^\t\\]+)\\?([^\t\\]*)\t(.*$)$/$1$3\t$4\t$5/g and print&quot; input_file.txt &gt; output_file.txt</code></p>
 
 </div>
 
@@ -1086,7 +1098,7 @@ and clean the external data.</p>
 <p>Open the output file in jEdit and&hellip;</p>
 
 <ul>
-<li>Add a tab and new header &ldquo;prepmethodref&rdquo; after &ldquo;methodref&rdquo;</li>
+<li>Add a new header &ldquo;prepmethodref&rdquo; after &ldquo;methodref&rdquo;</li>
 </ul>
 
 <p>Also, need to remove all double quote (&ldquo;) characters.</p>

@@ -99,7 +99,7 @@ Format Times in Excel
 ===========================================
 
 * Reformat the "collecttime" field
-  1. Click "E" column header, the "collecttime" field
+  1. Click "F" column header, the "collecttime" field
   2. Right click, choose "Format Cells"
   3. Choose "Custom", enter this Type: hh:mm:ss
   4. Press OK
@@ -113,6 +113,15 @@ Reformat the "run_date" field
   2. Right click, choose "Format Cells"
   3. Choose "Custom", enter this Type: yyyy-mm-dd hh:mm:ss
   4. Press OK
+
+Add Empty "id" in Excel
+===========================================
+
+Before saving the file as text, we will add an empty "id" column to the spreadsheet.
+
+Insert the new column as a new first column (A) of the spreadsheet. Give it a column heading of "id".
+
+This will make it easier to import the data into our "bucket" table, as we will not need to specify our column names at that stage.
 
 Save as Tab-Delimited Text File
 ===========================================
@@ -179,15 +188,15 @@ We need to split out "METHOD\METHOD" into two fields.
 
 * Our "Search for" expression: 
 
-```^(([^\t]*\t){14})([^\t\\]+)\\?([^\t\\]*)\t(.*$)$ ```
+```^(([^\t]*\t){15})([^\t\\]+)\\?([^\t\\]*)\t(.*$)$ ```
 
 * Our "Replace with" expression:
 
-```$1\t$3\t$4\t$5 ```
+```$1$3\t$4\t$5 ```
 
 * Run this one-line command at the DOS (CMD) prompt:
 
-```perl -wln -e "s/^(([^\t]*\t){14})([^\t\\]+)\\?([^\t\\]*)\t(.*$)$/$1\t$3\t$4\t$5/g and print" input_file.txt > output_file.txt```
+```perl -wln -e "s/^(([^\t]*\t){15})([^\t\\]+)\\?([^\t\\]*)\t(.*$)$/$1$3\t$4\t$5/g and print" input_file.txt > output_file.txt```
 
 Example: Split Fields (Perl Screenshot)
 ===========================================
@@ -210,7 +219,7 @@ Final Text Edits in jEdit
 
 Open the output file in jEdit and...
 
-* Add a tab and new header "prepmethodref" after "methodref"
+* Add a new header "prepmethodref" after "methodref"
 
 Also, need to remove all double quote (") characters.
 
