@@ -193,7 +193,7 @@ We need to split out "METHOD\METHOD" into two fields.
 
 * Our "Search for" expression: 
 
-```^(([^\t]*\t){15})([^\t\\]+)\\?([^\t\\]*)\t(.*$)$ ```
+```^(([^\t]*\t){15})([^\t\\]+)\\?([^\t\\]*)\t(.*)$ ```
 
 * Our "Replace with" expression:
 
@@ -201,7 +201,7 @@ We need to split out "METHOD\METHOD" into two fields.
 
 * Run this one-line command at the DOS (CMD) prompt:
 
-```perl -wln -e "s/^(([^\t]*\t){15})([^\t\\]+)\\?([^\t\\]*)\t(.*$)$/$1$3\t$4\t$5/g and print" input_file.txt > output_file.txt```
+```perl -wln -e "s/^(([^\t]*\t){15})([^\t\\]+)\\?([^\t\\]*)\t(.*)$/$1$3\t$4\t$5/g and print" input_file.txt > output_file.txt```
 
 Example: Split Fields (Perl Screenshot)
 ===========================================
