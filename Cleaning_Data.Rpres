@@ -123,6 +123,11 @@ Insert the new column as a new first column (A) of the spreadsheet. Give it a co
 
 This will make it easier to import the data into our "bucket" table, as we will not need to specify our column names at that stage.
 
+---
+
+![add id field to excel file](images/Data_Cleaning_Excel_Screenshot_02.png)
+
+
 Save as Tab-Delimited Text File
 ===========================================
 
