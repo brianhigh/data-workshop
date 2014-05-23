@@ -284,12 +284,10 @@ Using RMySQL:
 ```{sql}
 install.packages("RMySQL")
 library("RMySQL")
-
 drv <- dbDriver("MySQL")
-myconn <- dbConnect(drv, host="plasmid.deohs.washington.edu", 
-                    dbname="dataman", 
-                    user="USERNAME", 
-                    password="PASSWORD")
+myconn <- dbConnect(drv, host="plasmid", 
+  dbname="dataman", user="USERNAME", 
+  password="PASSWORD")
 ```                    
 
 Using RODBC and a DSN:
@@ -307,7 +305,6 @@ R Script Using RMySQL and ggplot2
 
 As you can see, one downside of using a DSN-less connection is that the username and password is in the script.
 
-
 R Plot Using ggplot2
 =======================================================
 
@@ -321,7 +318,6 @@ ggplot(lowhighdat, aes(x=YEAR, y=KG, colour=EPest, group=EPest)) +
 
 ![epest cpf yakima by year view complete](images/epest_cpf_yakima_by_year_view_complete.png)
 
-
 R Script Using RODBC and ggplot2
 =======================================================
 
@@ -334,3 +330,63 @@ In the Coming Sessions...
 * Version Control
 * Data Security
 * Systems Administration
+
+Action Items (videos, readings,  and tasks)
+========================================================
+
+<table>
+   <tr border=0>
+      <td width="128" valign="middle"><img width="128" height="128" alt="watching" src="images/watching.jpg">
+      </td>
+      <td valign="middle">
+         <ul>
+            <li><a href="https://www.youtube.com/watch?v=aWY3nTVR8vk">Redmine A Guided Tour</a>
+            <li><a href="https://www.youtube.com/watch?v=9WC4P8t7T8w">Who should use Git?</a>
+            <li><a href="https://www.youtube.com/watch?v=LXoWxrTdXkM">GitHub for Beginners</a>
+            <li><a href="https://www.youtube.com/channel/UCP7RrmoueENv9TZts3HXXtw">GitHub Training & Guides</a> (watch a few -- they are short)
+         </ul>
+      </td>
+   </tr>
+   <tr>
+      <td width="128" valign="middle"><img width="128" height="128" alt="readings" src="images/reading.jpg">
+      </td>
+      <td valign="middle">
+         <ul>
+            <li><A href="http://practicalcomputing.org/about">PCfB</a> textbook: Chapter 20. Working on Remote Computers
+            <li>Skim: <a href="http://seattle.bibliocommons.com/item/show/2897906030_sams_teach_yourself_sql_in_10_minutes,_fourth_edition">SAMS Teach Yourself SQL on 10 Minutes</a>: Ch. 9-14
+            <li>Optional- Skim: <a href="http://www.amazon.com/dp/0123747309">RDDaI3CE</a> textbook: Chapter 17
+            <li>Optional- Skim: <a href="http://www.amazon.com/dp/0123756979">SQLCE3</a> textbook: Chapters 5-8
+         </ul>
+      </td>
+   </tr>
+   <tr>
+      <td width="128" valign="middle"><img width="128" height="128" alt="tasks" src="images/tasks.jpg"></td>
+      <td valign="middle">
+         <ul>
+            <li>Clean up an external data files you may have.
+            <li>Import your external data into your database.
+            <li>Check your database tables and resolve any errors.
+            <li>Query your database for to answer research questions.
+         </ul>
+      </td>
+   </tr>
+</table>
+
+
+See Also
+========================================================
+
+To prepare for next week...
+
+* [Mastering Redmine](http://seattle.bibliocommons.com/item/show/2920711030_mastering_redmine)
+* [Version Control With Git, 2nd Edition](http://seattle.bibliocommons.com/item/show/2847665030_version_control_with_git,_2nd_edition)
+* [Git - Version Control for Everyone](http://seattle.bibliocommons.com/item/show/2937299030_git_-_version_control_for_everyone)
+* [Redmine](http://www.redmine.org/)
+* [Git](http://git-scm.com/)
+* [GitHub](https://github.com/)
+
+Questions and Comments 
+========================================================
+
+<p style="width: 380px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Happy_Question.svg/380px-Happy_Question.svg.png" alt="question" style="padding-bottom:0.5em;" />Image: <a href=http://commons.wikimedia.org/wiki/File:Happy_Question.svg">© Nevit Dilmen</a> / Wikimedia</p>
+
