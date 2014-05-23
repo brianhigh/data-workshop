@@ -55,6 +55,8 @@ wget -q --no-parent \
 
 This can be pasted into the Bash shell and run as one multiline command.
 
+You will download 14 text files totalling about 266 MB in size.
+
 Combining the Files
 ========================================================
 
@@ -81,20 +83,20 @@ Run these commands in MySQL:
 
 ```
 CREATE  TABLE IF NOT EXISTS `epest_high` (
-  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
-  `compound` VARCHAR(45) NULL ,
-  `year` YEAR(4) NULL ,
-  `state_fips_code` SMALLINT NULL ,
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `compound` VARCHAR(45) NULL,
+  `year` YEAR(4) NULL,
+  `state_fips_code` SMALLINT NULL,
   `county_fips_code` SMALLINT NULL,
   `high_use_kg` NUMERIC(8,1) NULL,
   PRIMARY KEY (`id`) )
 ENGINE = InnoDB;
 
 CREATE  TABLE IF NOT EXISTS `epest_low` (
-  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
-  `compound` VARCHAR(45) NULL ,
-  `year` YEAR(4) NULL ,
-  `state_fips_code` SMALLINT NULL ,
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `compound` VARCHAR(45) NULL,
+  `year` YEAR(4) NULL,
+  `state_fips_code` SMALLINT NULL,
   `county_fips_code` SMALLINT NULL,
   `low_use_kg` NUMERIC(8,1) NULL,
   PRIMARY KEY (`id`) )
@@ -143,7 +145,7 @@ ADD INDEX year_state_county
 (`year`, `state_fips_code`, `county_fips_code`);
 ```
 
-Find Annual "EPest Low"" Use in WA
+Find Annual "EPest Low" Use in WA
 ========================================================
 
 ```
@@ -156,6 +158,8 @@ WHERE state_fips_code = 53
 GROUP BY year 
 ORDER BY year;
 ```
+
+![epest low wa by year view](images/epest_low_wa_by_year_view.png)
 
 Save that Query as a View
 ========================================================
@@ -173,6 +177,8 @@ ORDER BY year;
 
 SELECT * FROM epest_low_wa_by_year_view;
 ```
+
+![epest low wa by year view](images/epest_low_wa_by_year_view.png)
 
 Create a View for EPest Low WA CPF Use
 ========================================================
@@ -192,6 +198,8 @@ ORDER BY year;
 SELECT * FROM epest_cpf_low_wa_by_year_view;
 ```
 
+![epest cpf low wa by year view](images/epest_cpf_low_wa_by_year_view.png)
+
 Analyze EPest Low CPF use in Yakima Co.
 =========================================================
 
@@ -206,6 +214,8 @@ WHERE state_fips_code = 53
 GROUP BY year 
 ORDER BY year;
 ```
+
+![epest low cpf yakima](images/epest_low_cpf_yakima.png)
 
 Compare High and Low for Yakima Co.
 =========================================================
@@ -229,6 +239,8 @@ ORDER BY year;
 SELECT * FROM epest_cpf_yakima_by_year_view;
 ```
 
+![epest cpf yakima by year view](images/epest_cpf_yakima_by_year_view.png)
+
 Compare Yakima CPF Use to WA
 =========================================================
 
@@ -242,6 +254,9 @@ JOIN epest_cpf_low_wa_by_year_view t
 ON t.year = y.year 
 ORDER BY year;
 ```
+
+![low cpf yakima wa](images/epest_low_cpf_yakima_percent_wa.png)
+
 
 Hands-on Group Exercise
 ========================================================
@@ -257,6 +272,43 @@ Discussion
 We will discuss your SQL queries and plots.
 
 <p style="width: 275px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/e/eb/User_journey_discussion.png" alt="discussion" style="padding-bottom:0.5em;" />Graphic: <a href="http://upload.wikimedia.org/wikipedia/commons/e/eb/User_journey_discussion.png">Jagbirlehl / Wikimedia</a></p>
+
+
+Connecting from R
+========================================================
+
+```{sql}
+install.packages("RMySQL")
+library("RMySQL")
+
+drv <- dbDriver("MySQL")
+myconn <- dbConnect(drv, host="plasmid.deohs.washington.edu", 
+                    dbname="dataman", 
+                    user="USERNAME", 
+                    password="PASSWORD")
+```                    
+
+
+Complete R Script Using ggplot2
+=======================================================
+
+![r ggplot script](images/rggplot_code.png)
+
+
+R Plot Using ggplot2
+=======================================================
+
+![r ggplot](images/rggplot.png)
+
+```
+ggplot(lowhighdat, aes(x=YEAR, y=KG, colour=EPest, group=EPest)) +
+  geom_line() + ggtitle(title)
+```
+---
+
+![epest cpf yakima by year view complete](images/epest_cpf_yakima_by_year_view_complete.png)
+
+
 
 In the Coming Sessions...
 ========================================================
