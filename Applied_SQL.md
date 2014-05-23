@@ -277,6 +277,10 @@ We will discuss your SQL queries and plots.
 Connecting from R
 ========================================================
 
+Here are two ways to connect to the MySQL database from R.
+
+Using RMySQL:
+
 ```{sql}
 install.packages("RMySQL")
 library("RMySQL")
@@ -288,11 +292,20 @@ myconn <- dbConnect(drv, host="plasmid.deohs.washington.edu",
                     password="PASSWORD")
 ```                    
 
+Using RODBC and a DSN:
 
-Complete R Script Using ggplot2
+```{sql}
+install.packages("RODBC")
+library(RODBC)
+myconn <- odbcConnect("plasmid-dataman")
+```
+
+R Script Using RMySQL and ggplot2
 =======================================================
 
 ![r ggplot script](images/rggplot_code.png)
+
+As you can see, one downside of using a DSN-less connection is that the username and password is in the script.
 
 
 R Plot Using ggplot2
@@ -309,6 +322,10 @@ ggplot(lowhighdat, aes(x=YEAR, y=KG, colour=EPest, group=EPest)) +
 ![epest cpf yakima by year view complete](images/epest_cpf_yakima_by_year_view_complete.png)
 
 
+R Script Using RODBC and ggplot2
+=======================================================
+
+![r ggplot script in Rstudio Windows](images/rggplot_code_Rstudio_win.png)
 
 In the Coming Sessions...
 ========================================================
