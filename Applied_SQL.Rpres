@@ -37,7 +37,7 @@ From these files, we want to ...
 
 <p style="width: 320px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Chlorpyrifos-3D-vdW.png/320px-Chlorpyrifos-3D-vdW.png" alt="CPF molecule" style="padding-bottom:0.5em;" />Image: <a href="http://en.wikipedia.org/wiki/File:Chlorpyrifos-3D-vdW.png"> Benjah-bmm27 / Wikimedia</a></p>
 
-Downloading the Files
+Download the Files
 ========================================================
 
 While we could manually download each text file from the website, on by one, we are going to automate this process.
@@ -57,7 +57,7 @@ This can be pasted into the Bash shell and run as one multiline command.
 
 You will download 14 text files totalling about 266 MB in size.
 
-Combining the Files
+Combine the Files
 ========================================================
 
 We can use a Bash command loop to combine the "high" pesticide use and "low" use files. 
@@ -76,7 +76,7 @@ done
 
 Now we have a file for "high" and another file for "low".
 
-Creating Database Tables
+Create Database Tables
 ========================================================
 
 Run these commands in MySQL:
