@@ -288,4 +288,15 @@ UPDATE `bucket`
 SET `analyst` = UCASE(`analyst`);
 ```
 
-We are now ready to copy the data from the temporary "bucket" to the normalized tables of our database with INSERT INTO statements. We cover this process in the next tutorial.
+We are now ready to copy the data from the temporary "bucket" to the normalized tables of our database with INSERT INTO statements. 
+
+Copying from "bucket" to Other Tables
+===============================================
+
+We will use INSERT INTO statements to copy data from the "bucket" table.
+
+We have not yet made a presentation for this, but we have posted the SQL scripts if you would like to reproduce this on your own. 
+
+Read the comments to see who it works. Add some SELECT statements to check COUNTs to confirm that the correct number of records are copied.
+
+You can find the [database schema file](https://github.com/brianhigh/data-workshop/blob/master/Lab_Testing_Schema_high_v5.sql) and [import SQL script](https://github.com/brianhigh/data-workshop/blob/master/import_ohio_epa_leachate_data.sql) on the [GitHub site](https://github.com/brianhigh/data-workshop/).
