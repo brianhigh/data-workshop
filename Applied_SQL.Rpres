@@ -378,15 +378,14 @@ See Also
 
 To prepare for next week...
 
-* [Project Management](http://en.wikipedia.org/wiki/Project_management)
+* [Project Management](http://en.wikipedia.org/wiki/Project_management) and [Version Control](http://en.wikipedia.org/wiki/Version_control) on Wikipedia
 * [Mastering Redmine](http://seattle.bibliocommons.com/item/show/2920711030_mastering_redmine) eBook
 * [Version Control With Git, 2nd Edition](http://seattle.bibliocommons.com/item/show/2847665030_version_control_with_git,_2nd_edition) eBook
 * [Git - Version Control for Everyone](http://seattle.bibliocommons.com/item/show/2937299030_git_-_version_control_for_everyone) eBook
-* [Redmine](http://www.redmine.org/)
-* [Git](http://git-scm.com/)
-* [GitHub](https://github.com/)
+* Project Pages: [Redmine](http://www.redmine.org/), [Git](http://git-scm.com/), [GitHub](https://github.com/)
 * [Implementing Redmine for Secure Project Management](http://www.sans.org/reading-room/whitepapers/testing/implementing-redmine-secure-project-management-34122)
 * [Code School - Try Git](https://try.github.io/levels/1/challenges/1) - 15 minute online Git tutorial
+* [6 Useful Graphical Git Client for Linux](http://www.maketecheasier.com/6-useful-graphical-git-client-for-linux/) Guide
 
 Questions and Comments 
 ========================================================

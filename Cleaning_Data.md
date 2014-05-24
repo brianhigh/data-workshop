@@ -61,11 +61,12 @@ If you would like to follow along and perform the same steps on your own system,
 Download the Data
 ===========================================
 
-We will use this Excel (XLS) file:
+We will use this spreadsheet file:
 
 <p style="width: 700px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="images/Data_Cleaning_Excel_Screenshot_01.png" alt="data file from Ohio EPA" style="padding-bottom:0.5em;" />Data source: <a href="http://www.epa.ohio.gov/portals/34/document/newsPDFs/n_cdd_leachate_sample_data.xls">Ohio EPA</a>. Used with permission.</p>
 
-http://www.epa.ohio.gov/portals/34/document/newsPDFs/n_cdd_leachate_sample_data.xls
+* [Lab Data](http://www.epa.ohio.gov/portals/34/document/newsPDFs/n_cdd_leachate_sample_data.xls) (XLS)
+* [EPA Report](http://epa.ohio.gov/Portals/34/document/newspdfs/n_cdd_leachate_evaluation.pdf) (PDF)
 
 
 Reformat Dates and Times
