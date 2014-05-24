@@ -4,7 +4,7 @@ Data Management
 For Scientific Research
 
 [//]: # (author: Brian High, UW DEOHS)
-[//]: # (date: 2014-05-22)
+[//]: # (date: 2014-05-23)
 [//]: # (license: CC0 1.0 Universal,linked-content/images)
 [//]: # (note: License does not apply to external content such as quoted material, linked web pages, images, or videos. These are licensed separately by their authors, publishers or other copyright holders. See attribution links for details.)
 [//]: # (note: Any of the trademarks, service marks, collective marks, design rights, personality rights, or similar rights that are mentioned, used, or cited in the presentations and wiki of the Data Management For Scientific Research workshop/course are the property of their respective owners.)
@@ -363,7 +363,7 @@ Action Items (videos, readings,  and tasks)
       <td width="128" valign="middle"><img width="128" height="128" alt="tasks" src="images/tasks.jpg"></td>
       <td valign="middle">
          <ul>
-            <li>Clean up an external data files you may have.
+            <li>Clean up any external data files you may have.
             <li>Import your external data into your database.
             <li>Check your database tables and resolve any errors.
             <li>Query your database for to answer research questions.
