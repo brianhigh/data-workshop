@@ -343,7 +343,7 @@ Action Items (videos, readings,  and tasks)
             <li><a href="https://www.youtube.com/watch?v=aWY3nTVR8vk">Redmine A Guided Tour</a>
             <li><a href="https://www.youtube.com/watch?v=9WC4P8t7T8w">Who should use Git?</a>
             <li><a href="https://www.youtube.com/watch?v=LXoWxrTdXkM">GitHub for Beginners</a>
-            <li><a href="https://www.youtube.com/channel/UCP7RrmoueENv9TZts3HXXtw">GitHub Training & Guides</a> (watch a few -- they are short)
+            <li><a href="https://www.youtube.com/channel/UCP7RrmoueENv9TZts3HXXtw">GitHub Training & Guides</a> (watch a few -- <a href="https://www.youtube.com/watch?v=FyfwLX4HAxM&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-">like this playlist</a>)
          </ul>
       </td>
    </tr>
@@ -378,12 +378,15 @@ See Also
 
 To prepare for next week...
 
-* [Mastering Redmine](http://seattle.bibliocommons.com/item/show/2920711030_mastering_redmine)
-* [Version Control With Git, 2nd Edition](http://seattle.bibliocommons.com/item/show/2847665030_version_control_with_git,_2nd_edition)
-* [Git - Version Control for Everyone](http://seattle.bibliocommons.com/item/show/2937299030_git_-_version_control_for_everyone)
+* [Project Management](http://en.wikipedia.org/wiki/Project_management)
+* [Mastering Redmine](http://seattle.bibliocommons.com/item/show/2920711030_mastering_redmine) eBook
+* [Version Control With Git, 2nd Edition](http://seattle.bibliocommons.com/item/show/2847665030_version_control_with_git,_2nd_edition) eBook
+* [Git - Version Control for Everyone](http://seattle.bibliocommons.com/item/show/2937299030_git_-_version_control_for_everyone) eBook
 * [Redmine](http://www.redmine.org/)
 * [Git](http://git-scm.com/)
 * [GitHub](https://github.com/)
+* [Implementing Redmine for Secure Project Management](http://www.sans.org/reading-room/whitepapers/testing/implementing-redmine-secure-project-management-34122)
+* [Code School - Try Git](https://try.github.io/levels/1/challenges/1) - 15 minute online Git tutorial
 
 Questions and Comments 
 ========================================================
