@@ -300,4 +300,4 @@ We have not yet made a presentation for this, but we have posted the SQL scripts
 
 Read the comments to see who it works. Add some SELECT statements to check COUNTs to confirm that the correct number of records are copied.
 
-You can find the [database schema file](https://github.com/brianhigh/data-workshop/blob/master/Lab_Testing_Schema_high_v5.sql) and [import SQL script](https://github.com/brianhigh/data-workshop/blob/master/import_ohio_epa_leachate_data.sql) on the [GitHub site](https://github.com/brianhigh/data-workshop/).
+You can find the [database schema file](https://github.com/brianhigh/data-workshop/blob/master/scripts/testing_lab/Lab_Testing_Schema_high_v5.sql) and [import SQL script](https://github.com/brianhigh/data-workshop/blob/master/scripts/testing_lab/import_ohio_epa_leachate_data.sql) on the [GitHub site](https://github.com/brianhigh/data-workshop/).
