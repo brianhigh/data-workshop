@@ -222,7 +222,7 @@ Action Items (videos, readings,  and tasks)
       </td>
       <td valign="middle">
          <ul>
-            <li><A href="http://practicalcomputing.org/about">PCfB</a> textbook: Chapter 16: Advanced Shell and Pipelines
+            <li><A href="http://practicalcomputing.org/about">PCfB</a> textbook: Appendix 7 (SQL) and Chapter 16 (Advanced Shell)
             <li>Skim: <a href="http://seattle.bibliocommons.com/item/show/2897906030_sams_teach_yourself_sql_in_10_minutes,_fourth_edition">SAMS Teach Yourself SQL on 10 Minutes</a>: Ch. 5-8, 15-18
             <li>Optional- Skim: <a href="http://www.amazon.com/dp/0123747309">RDDaI3CE</a> textbook: Chapter 9
             <li>Optional- Skim: <a href="http://www.amazon.com/dp/0123756979">SQLCE3</a> textbook: Chapters 3-4

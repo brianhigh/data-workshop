@@ -287,7 +287,7 @@ index 6de7b8c..4844fe6 100644
 ```git diff``` shows a [unified diff](http://en.wikipedia.org/wiki/Diff#Unified_format).
 
 
-diff as seen in Redmine and Git
+diff as seen in Redmine and GitHub
 ========================================================
 
 Redmine:
@@ -300,6 +300,29 @@ Redmine:
 GitHub:
 
 ![git screenshot](images/github_screenshot_02.png)
+
+Redmine and Git Integration
+=========================================================
+
+Redmine integrates repositories using special syntax in issues and commits.
+
+* [Referencing issues in commit messages](http://www.redmine.org/projects/redmine/wiki/RedmineSettings#Referencing-issues-in-commit-messages)
+* [How to link to Git commit?](http://www.redmine.org/boards/2/topics/15536?r=35831)
+
+![redmine screenshot](images/redmine_screenshot_06.png)
+
+---
+
+![redmine screenshot](images/redmine_screenshot_04.png)
+
+Closing Issues with Git Commits
+=========================================================
+
+```{bash}
+git commit -m "Added Project Management Presentation, closes #2741, refs #2732"
+```
+
+![redmine screenshot](images/redmine_screenshot_05.png)
 
 Discussion
 ========================================================
