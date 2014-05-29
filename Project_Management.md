@@ -384,12 +384,13 @@ See Also
 * [Version Control With Git, 2nd Edition](http://seattle.bibliocommons.com/item/show/2847665030_version_control_with_git,_2nd_edition) eBook
 * [Git - Version Control for Everyone](http://seattle.bibliocommons.com/item/show/2937299030_git_-_version_control_for_everyone) eBook
 * [Git Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/) eBook
-* [Getting Started with GitHub + Git](https://www.youtube.com/watch?v=DVDLoe_2MBc) video
 * Project Pages: [Redmine](http://www.redmine.org/), [Git](http://git-scm.com/), [GitHub](https://github.com/)
 * [Implementing Redmine for Secure Project Management](http://www.sans.org/reading-room/whitepapers/testing/implementing-redmine-secure-project-management-34122)
 * [Code School - Try Git](https://try.github.io/levels/1/challenges/1) - 15 minute online Git tutorial
 * [6 Useful Graphical Git Client for Linux](http://www.maketecheasier.com/6-useful-graphical-git-client-for-linux/) Guide
 * [Git Cheat Sheet](http://www.cheat-sheets.org/saved-copy/git-cheat-sheet.pdf)
+* [Introduction to Git](www.youtube.com/watch?v=ZDR433b0HJY) video
+* [Getting Started with GitHub + Git](https://www.youtube.com/watch?v=DVDLoe_2MBc) video
 
 Questions and Comments 
 ========================================================
