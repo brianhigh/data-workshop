@@ -87,10 +87,6 @@ Version Control Systems (VCS)
 * Branching and merging
 * Local, centralized, or distributed
 
-> Version control is the lab notebook of the digital world
-
---[Software Carpentry](http://software-carpentry.org/v5/novice/git/01-backup.html)
-
 ---
 
 <p style="width: 200px; float: left; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Revision_controlled_project_visualization-2010-24-02.svg/200px-Revision_controlled_project_visualization-2010-24-02.svg.png" alt="revision control branching" style="padding-bottom:0.5em;" />Image: <a href="http://commons.wikimedia.org/wiki/File:Revision_controlled_project_visualization-2010-24-02.svg">JSami Kerola/ Moxfyre / Echion2 / Wikimedia</a></p>
@@ -400,3 +396,14 @@ Questions and Comments
 
 <p style="width: 380px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Happy_Question.svg/380px-Happy_Question.svg.png" alt="question" style="padding-bottom:0.5em;" />Image: <a href=http://commons.wikimedia.org/wiki/File:Happy_Question.svg">© Nevit Dilmen</a> / Wikimedia</p>
 
+
+Some Parting Words
+========================================================
+
+> Version control is the lab notebook of the digital world
+
+--[Software Carpentry](http://software-carpentry.org/v5/novice/git/01-backup.html)
+
+---
+
+![bell lab notebook](images/bell_lab_notebook.png)
