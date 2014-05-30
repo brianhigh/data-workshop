@@ -401,10 +401,9 @@ Questions and Comments
 Some Parting Words
 ========================================================
 
-> Version control is the lab notebook of the digital world
+> Version control is the lab notebook of the digital world.
 
 --[Software Carpentry](http://software-carpentry.org/v5/novice/git/01-backup.html)
 
----
 
-![bell lab notebook](images/bell_lab_notebook.png)
+<p style="width: 851px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="images/the_evolution_of_my_lab_notebook_steven_roberts_sr320_At_uw_dot_edu.png" alt="steven roberts lab notebook" style="padding-bottom:0.5em;" />Image: <a href="http://oystergen.es/data/">Steven Roberts</a></p>
