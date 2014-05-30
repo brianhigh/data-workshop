@@ -1,3 +1,0 @@
-This is a test file.
-There's more to a good haiku
-than having three lines.
