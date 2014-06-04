@@ -4,7 +4,7 @@ Data Management
 For Scientific Research
 
 [//]: # (author: Brian High, UW DEOHS)
-[//]: # (date: 2014-05-27)
+[//]: # (date: 2014-06-04)
 [//]: # (license: CC0 1.0 Universal,linked-content/images)
 [//]: # (note: License does not apply to external content such as quoted material, linked web pages, images, or videos. These are licensed separately by their authors, publishers or other copyright holders. See attribution links for details.)
 [//]: # (note: Any of the trademarks, service marks, collective marks, design rights, personality rights, or similar rights that are mentioned, used, or cited in the presentations and wiki of the Data Management For Scientific Research workshop/course are the property of their respective owners.)
@@ -12,7 +12,7 @@ For Scientific Research
 
 <p style="width: 600px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://www.stanza.co.uk/body/stanza_+BODY-copy.jpg" alt="stanza body copy" style="padding-bottom:0.5em;" />Photo: &copy; <a href="http://www.stanza.co.uk/body/index.html">Stanza</a>. Used with permission.</p>
 
-Session 8: Project Management
+Project Management and Version Control
 ========================================================
 
 > Project management is the process and activity of planning, organizing, motivating, and controlling resources, procedures and protocols to achieve specific goals in scientific or daily problems.
