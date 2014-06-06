@@ -54,7 +54,6 @@ Schedule:
 
 Security Risks
 ========================================================
-incremental: true
 
 > [Risk](http://en.wikipedia.org/wiki/IT_risk) = Threat × Vulnerability × Asset Value
 
@@ -68,7 +67,7 @@ Risk is the intersection of assets, threats, and vulnerabilities.
 
 _Source: [ThreatAnalysis.com](http://www.threatanalysis.com/blog/?p=43)_
 
-Example: Phishing risk = trickiness × gullibility × identity/$$$
+Example: Phishing risk = trickiness × gullibility × credentials
 
 
 Core Principles of Information Security
@@ -88,7 +87,6 @@ _Source: [Wikipedia](http://en.wikipedia.org/wiki/Information_security)_
 
 Risk Mitigation
 ========================================================
-incremental: true
 
 We mitigate risks with various types of _controls_.
 
@@ -109,7 +107,6 @@ Administrative Controls:
 
 Information Security Best Practices
 ========================================================
-incremental: true
 
 * Keep software updated, especially anti-virus
 * Secure devices with locks, passwords and encryption
@@ -126,7 +123,6 @@ incremental: true
 
 Hands-on Group Exercise: Data Sleuth
 ========================================================
-incremental: true
 
 Let's play a game! You can win fabulous prizes!
 
@@ -157,7 +153,6 @@ Round 2:
 
 Round 1: Data Sleuth Scenario (#1)
 ========================================================
-incremental: true
 
 Your USB memory stick containing all of your work is not readable any more. You have no other copy. 
 
@@ -165,7 +160,6 @@ You are freaking out.
 
 Round 1: Data Sleuth Scenario (#2)
 ========================================================
-incremental: true
 
 One of your research subjects emails you. 
 
@@ -179,7 +173,6 @@ Both of you are freaking out.
 
 Round 1: Data Sleuth Scenario (#3)
 ========================================================
-incremental: true
 
 Yesterday you found an outlier in your raw data. Today, you can't find the outlier. 
 
@@ -191,7 +184,6 @@ This creeps you out.
 
 Round 2: Data Sleuth Scenario (#4)
 ========================================================
-incremental: true
 
 Your laptop warned you of a virus infection a week ago. 
 
@@ -208,7 +200,6 @@ Your most recent login was three days ago. What the .... ?
 
 Round 2: Data Sleuth Scenario (#5)
 ========================================================
-incremental: true
 
 Your lab shares an Excel spreadsheet containing research data. As new data are added, results are calculated. 
 
@@ -221,7 +212,6 @@ Someone's got some explaining to do...
 
 Round 2: Data Sleuth Scenario (#6)
 ========================================================
-incremental: true
 
 In a recently completed project, you used some government research data containing personal identifiers. To gain access to the data, you signed a security agreement.
 
@@ -239,7 +229,6 @@ And the winner is...
 
 In the Coming Sessions...
 ========================================================
-incremental: true
 
 Optional follow-up session next week
 
