@@ -1,0 +1,264 @@
+Data Management
+========================================================
+transition: fade
+
+For Scientific Research
+
+[//]: # (author: Brian High, UW DEOHS)
+[//]: # (date: 2014-06-06)
+[//]: # (license: CC0 1.0 Universal,linked-content/images)
+[//]: # (note: License does not apply to external content such as quoted material, linked web pages, images, or videos. These are licensed separately by their authors, publishers or other copyright holders. See attribution links for details.)
+[//]: # (note: Any of the trademarks, service marks, collective marks, design rights, personality rights, or similar rights that are mentioned, used, or cited in the presentations and wiki of the Data Management For Scientific Research workshop/course are the property of their respective owners.)
+[//]: # (homepage: https://github.com/brianhigh/data-workshop)
+
+<p style="width: 600px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://www.stanza.co.uk/body/stanza_+BODY-copy.jpg" alt="stanza body copy" style="padding-bottom:0.5em;" />Photo: &copy; <a href="http://www.stanza.co.uk/body/index.html">Stanza</a>. Used with permission.</p>
+
+Data Security and System Administration
+========================================================
+
+Data security is a disciplined interaction between people and data. 
+
+System adminstration supports this interaction by implementing security controls in information systems and the policies governing their use.
+
+This requires balance. Data which is too secure is hard to use.
+
+System Administration Basics
+========================================================
+
+* Determine requirements
+* Obtain system & support
+* Configure hardware
+* Install/update system
+* Configure firewall
+* Configure user accounts
+* Remove/install applications
+* Disable/configure services
+* Configure networking
+* Test, deploy, and train
+
+---
+
+Automate:
+
+* Installation
+* Configuration
+* Back-ups
+* Updates
+* Testing
+* Monitoring
+
+Schedule:
+
+* Maintenance and repairs
+* Retirement/replacement
+
+Security Risks
+========================================================
+incremental: true
+
+> [Risk](http://en.wikipedia.org/wiki/IT_risk) = Threat × Vulnerability × Asset Value
+
+_Source: [Wikipedia](http://en.wikipedia.org/wiki/IT_risk)_
+
+Risk is the intersection of assets, threats, and vulnerabilities.
+
+* A threat is what we’re trying to protect against.
+* A vulnerability is a weakness or gap in our protection efforts.
+* An asset is what we’re trying to protect.
+
+_Source: [ThreatAnalysis.com](http://www.threatanalysis.com/blog/?p=43)_
+
+Example: Phishing risk = trickiness × gullibility × identity/$$$
+
+
+Core Principles of Information Security
+========================================================
+
+The [information security](http://en.wikipedia.org/wiki/Information_security) profession promotes the following core principles:
+
+| Core Principle | Prevents |
+| -------------- | -------- |
+|Confidentiality | Unauthorized access |
+|Integrity | Unauthorized (and undetected) modification |
+|Availability | Denial of access |
+|Authenticity | Forgery of identity, data or communications |
+|Non-repudiation | Denial of having sent or received data |
+
+_Source: [Wikipedia](http://en.wikipedia.org/wiki/Information_security)_
+
+Risk Mitigation
+========================================================
+incremental: true
+
+We mitigate risks with various types of _controls_.
+
+Physical Controls:
+
+* Doors, locks, cameras, alarms, security guards, visitor log
+
+Logical Controls:
+
+* Accounts, passwords, groups, roles, ACLs, encryption
+* Application design (input data validation, views)
+
+Administrative Controls:
+
+* Policies, procedures, and guidelines
+* Configuration, updates, backups, monitoring and logging
+
+
+Information Security Best Practices
+========================================================
+incremental: true
+
+* Keep software updated, especially anti-virus
+* Secure devices with locks, passwords and encryption
+* Use strong passwords, changed regularly
+* Avoid using the same password on multiple systems
+* Log out or lock your screen when unattended
+* Only use admin. accounts for specific admin. tasks
+* Know your data, safeguard it, and back it up regularly
+* Purge data that you don't need to keep
+* Check email links before clicking on them
+* Check for the lock icon and https:// on web pages
+* Use privacy and security settings with social media
+
+
+Hands-on Group Exercise: Data Sleuth
+========================================================
+incremental: true
+
+Let's play a game! You can win fabulous prizes!
+
+We will present a number of data security scenarios. List possible problems and (reasonably likely) causes for the security issue raised in each scenario. You will receive a point for each of your problems and causes (limited to 5 points total).
+
+Additionally, if you can correctly identify the *root cause* (1 extra point), *core security principle* (1 extra point)  and *practical solutions* (1-3 extra points) to prevent further issues of that nature, you get up to 5 additional points. 
+
+Whoever has the most points wins!
+
+Data Sleuth Scoring
+========================================================
+
+Round 1:
+
+| Player/Team | Problems | Causes | Root Cause | Core Principle | Solution | Total |
+| ----------- | -------- | ------ | ---------- | -------------- | -------- | ----- | 
+| Player-1 | | | | | | |
+| Player-2 | | | | | | |
+| Player-3 | | | | | | |
+
+Round 2:
+
+| Player/Team | Problems | Causes | Root Cause | Core Principle | Solution | Total |
+| ----------- | -------- | ------ | ---------- | -------------- | -------- | ----- | 
+| Player-1 | | | | | | |
+| Player-2 | | | | | | |
+| Player-3 | | | | | | |
+
+Round 1: Data Sleuth Scenario (#1)
+========================================================
+incremental: true
+
+Your USB memory stick containing all of your work is not readable any more. You have no other copy. 
+
+You are freaking out.
+
+Round 1: Data Sleuth Scenario (#2)
+========================================================
+incremental: true
+
+One of your research subjects emails you. 
+
+The email says:
+
+> I Googled myself and want to know why *your* research data spreadsheet -- with *my name* in it -- came up as a search result. Now the *whole Internet* knows I have irritable bowel syndrome!
+
+Sure enough, you can reach the spreadsheet from an Internet search. It is being hosted from your Google Drive. You realize that the "sharing" settings on that file allow "public" access.
+
+Both of you are freaking out.
+
+Round 1: Data Sleuth Scenario (#3)
+========================================================
+incremental: true
+
+Yesterday you found an outlier in your raw data. Today, you can't find the outlier. 
+
+Upon closer inspection, you see there is a gap in the sequential record numbers in your database. In fact you see a number of gaps. The database is shared with your research partner, using a single shared database account (username). 
+
+You ask your research partner about this. He claims ignorance, but you are concerned about foul play, since only the two of you use the database. He reminds you that the same account and password have been in use for years within the lab. Many people, long gone by now, may still remember the password.
+
+This creeps you out.
+
+Round 2: Data Sleuth Scenario (#4)
+========================================================
+incremental: true
+
+Your laptop warned you of a virus infection a week ago. 
+
+Now you cannot access the server because of a bad password error, yet you know you have the right password. 
+
+When your password is reset, you log into the server to find all of your files are gone. 
+
+You start to panic, but then you remember ... backups! :)
+
+The most recent backup containing your files was made two days ago. 
+
+Your most recent login was three days ago. What the .... ?
+
+
+Round 2: Data Sleuth Scenario (#5)
+========================================================
+incremental: true
+
+Your lab shares an Excel spreadsheet containing research data. As new data are added, results are calculated. 
+
+Today you discover there is an error in a formula. An old archived copy of the speadsheet has the correct formula. 
+
+Two papers have been published from these data since old (good) version was archived.
+
+Someone's got some explaining to do...
+
+
+Round 2: Data Sleuth Scenario (#6)
+========================================================
+incremental: true
+
+In a recently completed project, you used some government research data containing personal identifiers. To gain access to the data, you signed a security agreement.
+
+You agreed to store the data using secure media, to destroy the data when you were done using it, and to notify the government if there was any security breach.
+
+You downloaded the data to your PC and copied it to an expensive thumbdrive that came with some special security software. 
+
+Last night, your PC was stolen. You chose not to notify the government about the theft since the data was not on the PC and the thumbdrive is still locked in your desk drawer.
+
+And the winner is...
+========================================================
+
+<p style="width: 800px; float: right; clear: right; margin-bottom: 5px; margin-left: 10px; text-align: right; font-weight: bold; font-size: 14pt;"><img src="http://upload.wikimedia.org/wikipedia/commons/6/65/Winner_sign.jpg" alt="winner sign" style="padding-bottom:0.5em;" />Photo: <a href="http://commons.wikimedia.org/wiki/File:Winner_sign.jpg">Lenore Edman / Wikimedia</a></p>
+
+
+In the Coming Sessions...
+========================================================
+incremental: true
+
+Optional follow-up session next week
+
+* "Applied Anything"
+* Either just a recorded video or an actual meeting
+* Purpose: to cover anything you want to know how to do
+* Send requests for tasks to be demonstrated or explained
+
+Some Parting Words
+========================================================
+
+> Security is a process, not a product.
+
+--[Bruce Schneier](https://www.schneier.com/crypto-gram-0005.html)
+
+> To err is human; to really screw up requires the _root_ password.
+
+--[Anonymous](http://books.google.com/books?id=0hsDAwAAQBAJ&lpg=PA43&dq=err%20screw%20up%20root%20password&pg=PA43#v=onepage&q&f=false)
+
+> The design of a security system should be based on simplicity, usability, and minimalism.
+
+--[Tom Limoncelli, et al.](http://books.google.com/books?id=0hsDAwAAQBAJ&lpg=PA273&dq=simplicity%2C%20usability%2C%20and%20minimalism&pg=PA273#v=onepage&q&f=false), p. 273, _The Practice of System and Network Administration, Second Edition_ (Pearson Education, 2007)
