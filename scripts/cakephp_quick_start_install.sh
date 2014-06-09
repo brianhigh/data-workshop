@@ -107,10 +107,15 @@ cd "$WEB_ROOT"
 echo "Setting up username=$USER for basic web authentication..."
 htpasswd -c .htpasswd $USER
 cat << EOF > .htaccess
+Options -Indexes
 AuthUserFile $(pwd)/.htpasswd
 AuthType Basic
 AuthName "$USER - Restricted Access"
 Require valid-user
+<Files ~ "^.ht">
+Order allow,deny
+Deny from all
+</Files>
 EOF
 
 # Set permissions -- local users may still read your Config files
@@ -124,3 +129,4 @@ sudo find "$APP_FOLDER" -type f -exec chmod 0640 "{}" \;
 sudo find "$APP_FOLDER" -type d -exec chmod 2750 "{}" \;
 sudo chmod -R g+w "$APP_FOLDER"/app/tmp
 chmod u+x "$APP_FOLDER"/app/Console/cake
+sudo chgrp $WEB_GROUP .ht* && chmod 640 .ht*
